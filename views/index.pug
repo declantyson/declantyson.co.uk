@@ -3,12 +3,16 @@ html
 		title declantyson.net
 		link(rel='stylesheet', href='/css/styles.min.css')
 		link(rel='shortcut icon', href='/assets/favicon.ico')
-	body
-		.col.col-33
-			h1 declantyson.net
-			p #{package.version}
-		.col.col-66
-			#content
+	body.homepage
+		img#featured(src='/assets/home-temp.png')
+
+		header
+			include:markdown-it content/intro.md
+		#container
+			.content
+				.navigation
+					include includes/nav
+
 
 		each script in scripts
 			script(src=script)

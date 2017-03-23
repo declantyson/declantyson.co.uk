@@ -1,0 +1,27 @@
+/*
+*
+*	declantyson/2017/home
+*	Declan Tyson
+*	v0.0.1
+*	23/03/2017
+*
+*/
+
+.homepage {
+	header {
+		color: #fff;
+		margin: calc(100vh - #{$headerHeight + ($contentPadding * 2) + $headerSpacing + $navHeight + $paragraphFontSize}) auto $headerSpacing auto;
+		h1 {
+			font-size: 48px;
+			line-height: $headerHeight;
+			margin: 0;
+		}
+		p {
+			margin: 0;
+			font-size: $paragraphFontSize;
+		}
+	}
+	img#featured {
+		height: 100%;
+	}
+}

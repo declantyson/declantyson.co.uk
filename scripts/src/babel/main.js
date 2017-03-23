@@ -14,3 +14,4 @@ const ocelot = require('ocelot-pjax');
 
 let pjax = new ocelot.Pjax();
 pjax.all();
+//# sourceMappingURL=main.js.map

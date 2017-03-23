@@ -32,6 +32,8 @@
     "express": "^4.14.1",
     "fs": "0.0.1-security",
     "jquery": "^3.1.1",
+    "jstransformer-markdown-it": "^2.0.0",
+    "markdown-it": "^8.3.1",
     "ocelot-pjax": "^0.3.4",
     "penknife": "0.0.3",
     "pug": "^2.0.0-beta11"

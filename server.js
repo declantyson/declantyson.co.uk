@@ -16,6 +16,7 @@ const package = require('./package.json'),
 
 app.set('view engine', 'pug');
 
+app.use("/assets", express.static('assets'));
 app.use("/css", express.static('css'));
 app.use("/data", express.static('data'));
 app.use("/scripts", express.static('scripts'));

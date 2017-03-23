@@ -1,0 +1,26 @@
+/*
+*
+*	declantyson/2017/home
+*	Declan Tyson
+*	v0.0.1
+*	23/03/2017
+*
+*/
+
+$navHeight: 30px;
+
+.navigation {
+	height: $navHeight;
+	ul {
+		padding: 0;
+		margin: 0;
+		li {
+			padding: 0 20px;
+			margin: 0;
+			display: inline-block;
+			list-style-type: none;
+			line-height: $navHeight;
+			font-weight: 600;
+		}
+	}
+}

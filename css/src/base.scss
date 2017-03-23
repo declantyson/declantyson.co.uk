@@ -9,9 +9,20 @@
 
 /* Defaults */
 
+@import url('https://fonts.googleapis.com/css?family=Patua+One|Raleway:300|Raleway:600');
+
+$paragraphFontSize: 16px;
+
 html, body {
 	margin: 0;
-	font-family: 'Helvetica Neue',  sans-serif;
+	font-family: 'Raleway',  sans-serif;
+	font-weight: 300;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Patua One', cursive;
+	letter-spacing: 3px;
+	font-weight: normal;
 }
 
 .clear, .clearfix {
@@ -19,6 +30,42 @@ html, body {
 	&.padout {
 		padding: 20px 0;
 	}
+}
+
+img#featured {
+	position: fixed;
+	object-fit: cover;
+	z-index: -1;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+}
+
+$contentPadding: 20px;
+#container {
+	background-color: #ffffff;
+}
+
+.content {
+	width: calc(100% - #{$contentPadding * 2});
+	padding: $contentPadding;
+	max-width: 1200px;
+	margin: 0 auto;
+	&:after {
+		content: ' ';
+		clear: both;
+		display: block;
+	}
+}
+
+$headerHeight: 54px;
+$headerSpacing: 40px;
+
+header {
+	@extend .content;
+	max-width: 1200px;
+	padding: 0 $contentPadding;
+	margin: $headerSpacing auto;
 }
 
 .col {
@@ -110,3 +157,6 @@ html, body {
 		border-top:    $perpendicular-borders;
 	}
 }
+
+@import "nav";
+@import "home";
