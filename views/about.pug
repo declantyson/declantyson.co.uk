@@ -7,14 +7,14 @@ html
 		img#featured(src='/assets/home-temp.png')
 
 		header
-
+			include:markdown-it content/intro.md
 
 		#container
 			.content
 				.navigation
 					include includes/nav
 				#ocelot-content
-					include:markdown-it content/intro.md
+					include:markdown-it content/lorem.md
 
 		each script in scripts
 			script(src=script)

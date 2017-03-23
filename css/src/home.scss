@@ -2,7 +2,7 @@
 *
 *	declantyson/2017/home
 *	Declan Tyson
-*	v0.0.1
+*	v0.0.2
 *	23/03/2017
 *
 */
@@ -15,10 +15,37 @@
 			font-size: 48px;
 			line-height: $headerHeight;
 			margin: 0;
+			top: 50px;
+			opacity: 0;
+			position: relative;
 		}
 		p {
 			margin: 0;
 			font-size: $paragraphFontSize;
+			top: 50px;
+			opacity: 0;
+			position: relative;
+		}
+
+		&.in, &.out {
+			h1 {
+				@include transition(opacity 0.5s linear, top 0.5s ease-out);
+			}
+			p {
+				@include transition(opacity 0.75s linear, top 0.75s ease-out);
+			}
+		}
+		&.in {
+			h1, p {
+				opacity: 1;
+				top: 0px;
+			}
+		}
+		&.out {
+			h1, p {
+				opacity: 0;
+				top: -20px;
+			}
 		}
 	}
 	img#featured {

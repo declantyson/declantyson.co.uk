@@ -10,6 +10,7 @@
 /* Defaults */
 
 @import url('https://fonts.googleapis.com/css?family=Patua+One|Raleway:300|Raleway:600');
+@import "mixins";
 
 $paragraphFontSize: 16px;
 
@@ -17,6 +18,15 @@ html, body {
 	margin: 0;
 	font-family: 'Raleway',  sans-serif;
 	font-weight: 300;
+	height: 100%;
+}
+
+html {
+	overflow: hidden;
+}
+
+body {
+	overflow: auto;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -43,7 +53,7 @@ img#featured {
 
 $contentPadding: 20px;
 #container {
-	background-color: #ffffff;
+	background-color: rgba(255,255,255,0.7);
 }
 
 .content {
@@ -58,11 +68,16 @@ $contentPadding: 20px;
 	}
 }
 
+#ocelot-content {
+	@include transition(opacity 0.25s cubic-bezier(0,0,0.25,1));
+}
+
 $headerHeight: 54px;
 $headerSpacing: 40px;
 
 header {
 	@extend .content;
+	@include transition(margin 0.25s linear);
 	max-width: 1200px;
 	padding: 0 $contentPadding;
 	margin: $headerSpacing auto;
@@ -83,80 +98,6 @@ header {
 	}
 }
 
-/* Mixins */
-
-@mixin transform($val) {
-	-webkit-transform: $val;
-	-moz-transform: $val;
-	-ms-transform: $val;
-	transform: $val;
-}
-
-@mixin borderRadius($val) {
-	-webkit-border-radius: $val;
-	-moz-border-radius: $val;
-	border-radius: $val;
-}
-
-@mixin transition($val) {
-	-webkit-transition: $val;
-	-moz-transition: $val;
-	-o-transition: $val;
-	transition: $val;
-}
-
-@mixin boxShadow($val) {
-	-webkit-box-shadow: $val;
-	box-shadow: $val;
-}
-
-@function opposite-direction($directions) {
-	$opposite-directions: ();
-	$direction-map: (
-			'top':    'bottom',
-			'right':  'left',
-			'bottom': 'top',
-			'left':   'right',
-			'center': 'center',
-			'ltr':    'rtl',
-			'rtl':    'ltr'
-	);
-
-	@each $direction in $directions {
-		$direction: to-lower-case($direction);
-
-		@if map-has-key($direction-map, $direction) {
-			$opposite-directions: append($opposite-directions, unquote(map-get($direction-map, $direction)));
-		} @else {
-			@warn "No opposite direction can be found for `#{$direction}`. Direction omitted.";
-		}
-	}
-
-	@return $opposite-directions;
-}
-
-@mixin triangle($direction, $color, $size) {
-	@if not index(top right bottom left, $direction) {
-		@error "Direction must be either `top`, `right`, `bottom` or `left`.";
-	}
-
-	width: 0;
-	height: 0;
-	content: '';
-	z-index: 2;
-	border-#{opposite-direction($direction)}: ($size * 1.5) solid $color;
-	border-#{$direction}-width: 0px;
-
-	$perpendicular-borders: $size solid transparent;
-
-	@if $direction == top or $direction == bottom {
-		border-left:   $perpendicular-borders;
-		border-right:  $perpendicular-borders;
-	} @else if $direction == right or $direction == left {
-		border-bottom: $perpendicular-borders;
-		border-top:    $perpendicular-borders;
-	}
-}
 
 @import "nav";
 @import "home";

@@ -23,7 +23,7 @@ module.exports = function(grunt) {
 
                 },
                 files : {
-                    'css/styles.css': 'css/src/base.scss'
+                    'css/styles.css': 'css/src/*.scss'
                 }
             }
         },
