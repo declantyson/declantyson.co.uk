@@ -1,0 +1,39 @@
+{
+  "name": "2017.declantyson",
+  "version": "0.0.1",
+  "description": "",
+  "main": "Gruntfile.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "Declan Tyson",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-babel": "^6.0.0",
+    "grunt-browserify": "^5.0.0",
+    "grunt-cli": "^1.2.0",
+    "grunt-contrib-cssmin": "^1.0.2",
+    "grunt-contrib-jasmine": "^1.1.0",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-uglify": "^2.1.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-notify": "^0.4.5"
+  },
+  "dependencies": {
+    "babelify": "^7.3.0",
+    "body-parser": "^1.16.0",
+    "express": "^4.14.1",
+    "fs": "0.0.1-security",
+    "jquery": "^3.1.1",
+    "ocelot-pjax": "^0.3.4",
+    "penknife": "0.0.3",
+    "pug": "^2.0.0-beta11"
+  }
+}
