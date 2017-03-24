@@ -14,16 +14,22 @@ let ocelot = new Ocelot.Pjax();
 const ocelotCallback = () => {
     let header = document.querySelector('header'),
         pageTitle = document.querySelector('#ocelot-content h1'),
+        pageSubTitle = document.querySelector('#ocelot-content h6'),
         pageTitleH1 = document.createElement('h1'),
-        pageTitlePara = document.createElement('p');
+        pageSubTitlePara = document.createElement('p'),
+        bodyClassName = window.location.pathname.replace('/', '');
+
+    if(bodyClassName === '') bodyClassName = 'homepage';
+    document.body.className = bodyClassName;
 
     pageTitleH1.innerText = pageTitle.innerText;
     pageTitle.remove();
 
-    pageTitlePara.innerHTML = '&nbsp;';
+    pageSubTitlePara.innerHTML = pageSubTitle.innerText;
+    pageSubTitle.remove();
 
     header.className = '';
-    header.innerHTML = pageTitleH1.outerHTML + pageTitlePara.outerHTML;
+    header.innerHTML = pageTitleH1.outerHTML + pageSubTitlePara.outerHTML;
 
     ocelot.fadeContent(1);
 
