@@ -11,6 +11,9 @@
 	.content {
 		padding-bottom: 0;
 	}
+	#ocelot-content {
+		padding: 0;
+	}
 }
 
 header {
@@ -23,6 +26,10 @@ header {
 		top: 50px;
 		opacity: 0;
 		position: relative;
+		@media screen and (max-width: $mobile) {
+			font-size: 32px;
+			letter-spacing: 1px;
+		}
 	}
 	p {
 		margin: 0;

@@ -72,7 +72,5 @@ const scrollPage = scrollDuration => {
             clearInterval(scrollInterval);
         }
     }, 15);
-
-    console.log(scrollStep, [stopPoint, scrollDuration, 15]);
 };
 //# sourceMappingURL=main.js.map
