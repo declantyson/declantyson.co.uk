@@ -75,10 +75,12 @@ const ocelotCallback = () => {
     ocelot.fadeContent(1);
 
     setTimeout(() => {
-        document.querySelector('header').className = 'in';
+        header.className = 'in';
 
         if (window.location.pathname !== "/") {
-            scrollPage(750);
+            scrollPage(500);
+        } else {
+            document.querySelector('#total').scrollTop = 0;
         }
     }, 200);
 };
@@ -100,16 +102,19 @@ window.onload = () => {
 
 const scrollPage = scrollDuration => {
     let view = document.querySelector('#total'),
-        bottom = view.scrollHeight - view.clientHeight,
-        scrollStep = bottom / (scrollDuration / 15),
         header = document.querySelector('header'),
+        bottom = view.scrollHeight - view.clientHeight,
+        stopPoint = bottom < header.offsetTop - 40 ? bottom : header.offsetTop - 40,
+        scrollStep = stopPoint / (scrollDuration / 15),
         scrollInterval = setInterval(() => {
-        if (view.scrollTop !== bottom && view.scrollTop < header.offsetTop - 40) {
+        if (view.scrollTop < stopPoint) {
             view.scrollTop += scrollStep;
         } else {
             clearInterval(scrollInterval);
         }
     }, 15);
+
+    console.log(scrollStep, [stopPoint, scrollDuration, 15]);
 };
 
 

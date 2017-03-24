@@ -12,7 +12,7 @@
 @import url('https://fonts.googleapis.com/css?family=Patua+One|Raleway:300|Raleway:600');
 @import "mixins";
 
-$paragraphFontSize: 16px;
+$paragraphFontSize: 18px;
 
 html {
 	overflow: hidden;
@@ -34,6 +34,10 @@ html, body {
 	height: 100%;
 }
 
+p {
+	font-size: $paragraphFontSize;
+	line-height: #{$paragraphFontSize + 10};
+}
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Patua One', cursive;
@@ -58,8 +62,9 @@ img#featured {
 }
 
 $contentPadding: 20px;
+$containerOpacity: 1;
 #container {
-	background-color: rgba(255,255,255,0.7);
+	background-color: rgba(255,255,255,$containerOpacity);
 }
 
 .content {
