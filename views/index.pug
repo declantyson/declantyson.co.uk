@@ -4,17 +4,18 @@ html
 		link(rel='stylesheet', href='/css/styles.min.css')
 		link(rel='shortcut icon', href='/assets/favicon.ico')
 	body.homepage
-		img#featured(src='/assets/home-temp.png')
+		#total
+			img#featured(src='/assets/home-temp.png')
 
-		header
+			header
 
 
-		#container
-			.content
-				.navigation
-					include includes/nav
-				#ocelot-content
-					include:markdown-it content/intro.md
+			#container
+				.content
+					.navigation
+						include includes/nav
+					#ocelot-content
+						include:markdown-it content/intro.md
 
-		each script in scripts
-			script(src=script)
+			each script in scripts
+				script(src=script)
