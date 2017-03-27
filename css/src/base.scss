@@ -17,6 +17,7 @@ $mobile: 480px;
 
 html {
 	overflow: hidden;
+	background-color: #000;
 }
 
 a {
@@ -66,6 +67,7 @@ img#featured {
 	top: 0px;
 	left: 0px;
 	width: 100%;
+	@include transition(opacity 0.25s linear);
 }
 
 $contentPadding: 20px;

@@ -18,7 +18,8 @@
 */
 /* Mixins */
 html {
-  overflow: hidden; }
+  overflow: hidden;
+  background-color: #000; }
 
 a {
   color: orangered;
@@ -59,7 +60,11 @@ img#featured {
   z-index: -1;
   top: 0px;
   left: 0px;
-  width: 100%; }
+  width: 100%;
+  -webkit-transition: opacity 0.25s linear;
+  -moz-transition: opacity 0.25s linear;
+  -o-transition: opacity 0.25s linear;
+  transition: opacity 0.25s linear; }
 
 #container {
   background-color: white; }

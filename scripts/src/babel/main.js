@@ -17,10 +17,14 @@ const ocelotCallback = () => {
         pageSubTitle = document.querySelector('#ocelot-content h6'),
         pageTitleH1 = document.createElement('h1'),
         pageSubTitlePara = document.createElement('p'),
-        bodyClassName = window.location.pathname.replace('/', '');
+        bodyClassName = window.location.pathname.replace('/', ''),
+        featuredImg = document.getElementById('featured');
 
     if (bodyClassName === '') bodyClassName = 'homepage';
     document.body.className = bodyClassName;
+
+    featuredImg.setAttribute("src", "assets/" + bodyClassName + ".png");
+    featuredImg.style.opacity = 1;
 
     pageTitleH1.innerText = pageTitle.innerText;
     pageTitle.remove();
@@ -47,6 +51,7 @@ const ocelotCallback = () => {
 ocelot.prePopCallback = () => {
     document.querySelector('header').className = 'out';
     ocelot.fadeContent(0);
+    document.getElementById('featured').style.opacity = 0;
 };
 
 ocelot.all({
