@@ -2,8 +2,8 @@
  *
  *  declantyson/2017/main
  *  Declan Tyson
- *  v0.0.2
- *  24/03/2017
+ *  v0.1.0
+ *  27/03/2017
  *
  */
 
@@ -23,7 +23,7 @@ const ocelotCallback = () => {
     if(bodyClassName === '') bodyClassName = 'homepage';
     document.body.className = bodyClassName;
 
-    featuredImg.setAttribute("src", "assets/" + bodyClassName + ".png");
+    featuredImg.setAttribute("src", "/assets/" + bodyClassName + ".png");
     featuredImg.style.opacity = 1;
 
     let titlePrefix = "Declan Tyson | ";

@@ -2,8 +2,8 @@
  *
  *  declantyson/2017
  *  Declan Tyson
- *  v0.0.1
- *  23/03/2017
+ *  v0.1.0
+ *  27/03/2017
  *
  */
 
@@ -48,8 +48,9 @@ app.get('/blog/:slug', function(req,res) {
 
     fs.readFile(file, 'utf-8', (err, content) => {
         if (err) {
-            console.err(err);
-            // TODO: 404
+            console.error(err);
+            content = "# 404 \n ###### Page not found \n Sorry about that. Please check out the rest of the site!"
+            res.status(404);
         }
         res.render("view-blog", {
             'package': package,
