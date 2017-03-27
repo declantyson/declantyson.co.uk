@@ -13,7 +13,8 @@ const package = require('./package.json'),
       fs = require('fs'),
       express = require('express'),
       MarkdownIt = require('markdown-it'),
-      app = express();
+      app = express(),
+      port = process.env.PORT || 1234;
 
 app.set('view engine', 'pug');
 
@@ -67,6 +68,6 @@ app.get('/:template', function(req,res) {
     });
 });
 
-http.createServer(app).listen(1234);
+http.createServer(app).listen(port);
 
-console.log("App running on 1234");
+console.log(`App running on ${port}`);
