@@ -26,6 +26,11 @@ const ocelotCallback = () => {
     featuredImg.setAttribute("src", "assets/" + bodyClassName + ".png");
     featuredImg.style.opacity = 1;
 
+    let titlePrefix = "Declan Tyson | ";
+    if (bodyClassName === 'homepage') {
+        titlePrefix = "";
+    }
+    document.title = titlePrefix + pageTitle.innerText;
     pageTitleH1.innerText = pageTitle.innerText;
     pageTitle.remove();
 
