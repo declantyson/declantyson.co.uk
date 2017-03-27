@@ -74,6 +74,9 @@ $contentPadding: 20px;
 $containerOpacity: 1;
 #container {
 	background-color: rgba(255,255,255,$containerOpacity);
+	-webkit-box-shadow: 0px -80px 200px black;
+	-moz-box-shadow: 0px -80px 200px black;
+	box-shadow: 0px -80px 200px black;
 }
 
 .content {

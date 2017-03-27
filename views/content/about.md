@@ -1,6 +1,6 @@
 # This is who I am
 
-###### Experienced and disciplined full-stack JavaScript developer with a keen eye for design.
+###### Multi-disciplined software engineer, Dachshund owner and Bond enthusiast.
 
 Hello! My name is __Dec__. Thanks for visiting my site. I'm twenty-something, for a few more years at least. I've spent the last 5 years living and working in London, England, after spending my entire life up until that point in Kent.
 

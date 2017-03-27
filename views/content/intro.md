@@ -1,3 +1,3 @@
 # Declan Tyson
 
-###### Multi-disciplined software engineer, Dachshund owner and Bond enthusiast.
+######  Experienced and disciplined full-stack JavaScript developer with a keen eye for design.

@@ -67,7 +67,10 @@ img#featured {
   transition: opacity 0.25s linear; }
 
 #container {
-  background-color: white; }
+  background-color: white;
+  -webkit-box-shadow: 0px -80px 200px black;
+  -moz-box-shadow: 0px -80px 200px black;
+  box-shadow: 0px -80px 200px black; }
 
 .content, header {
   width: calc(100% - 40px);

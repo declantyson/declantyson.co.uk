@@ -12,6 +12,7 @@ const package = require('./package.json'),
       pug = require('pug'),
       fs = require('fs'),
       express = require('express'),
+      MarkdownIt = require('markdown-it'),
       app = express();
 
 app.set('view engine', 'pug');
@@ -38,6 +39,23 @@ app.get('/', function(req,res) {
     res.render('index', {
         'package': package,
         'scripts': getScripts()
+    });
+});
+
+app.get('/blog/:slug', function(req,res) {
+    let md = new MarkdownIt(),
+        file = `views/content/blogs/${req.params.slug}.md`;
+
+    fs.readFile(file, 'utf-8', (err, content) => {
+        if (err) {
+            console.err(err);
+            // TODO: 404
+        }
+        res.render("view-blog", {
+            'package': package,
+            'scripts': getScripts(),
+            'content': md.render(content)
+        });
     });
 });
 
