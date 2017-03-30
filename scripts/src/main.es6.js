@@ -2,8 +2,8 @@
  *
  *  declantyson/2017/main
  *  Declan Tyson
- *  v0.1.0
- *  27/03/2017
+ *  v0.1.1
+ *  30/03/2017
  *
  */
 
@@ -67,6 +67,7 @@ ocelot.all({
 
 window.onload = () => {
     ocelotCallback();
+    if(typeof ocelot.events[window.location.pathname] !== "undefined") ocelot.events[window.location.pathname]();
 };
 
 const scrollPage = (scrollDuration) => {

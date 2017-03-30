@@ -61,6 +61,38 @@ app.get('/blog/:slug', function(req,res) {
     });
 });
 
+app.get('/blog', function(req,res) {
+    let blogs = [];
+
+    fs.readdir('views/content/blogs/', (err, files) => {
+       if(err) throw err;
+       files.forEach((file) => {
+           let md = new MarkdownIt(),
+               content = fs.readFileSync(`views/content/blogs/${file}`, 'utf-8');
+
+           let rendered = md.render(content),
+               titleStartIndex = rendered.indexOf("<h1>") + 4,
+               dateStartIndex = rendered.indexOf("<h4>") + 4,
+               titleEndIndex = rendered.indexOf("</h1>") ,
+               dateEndIndex = rendered.indexOf("</h4>") ,
+               blogTitle = rendered.substring(titleStartIndex, titleEndIndex),
+               blogDate = rendered.substring(dateStartIndex, dateEndIndex),
+               blog = {
+                   url: `/blog/${file.replace('.md', '')}`,
+                   title: blogTitle,
+                   date: blogDate
+               };
+
+           blogs.push(blog);
+        });
+        res.render('blog', {
+            'package': package,
+            'scripts': getScripts(),
+            'blogs' : blogs
+        });
+    });
+});
+
 app.get('/:template', function(req,res) {
     res.render(req.params.template, {
         'package': package,

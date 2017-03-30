@@ -2,8 +2,8 @@
 *
 *	declantyson/2017/base
 *	Declan Tyson
-*	v0.1.0
-*	27/03/2017
+*	v0.1.1
+*	30/03/2017
 *
 */
 /* Defaults */
@@ -28,7 +28,7 @@ a {
 
 #total {
   overflow: auto;
-  position: fixed;
+  position: relative;
   top: 0;
   left: 0;
   height: 100%;
@@ -48,6 +48,12 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Patua One', cursive;
   letter-spacing: 3px;
   font-weight: normal; }
+
+h4 {
+  letter-spacing: 2px;
+  margin: 0px;
+  padding-bottom: 10px;
+  border-bottom: solid 1px #efefef; }
 
 .clear, .clearfix {
   clear: both; }
@@ -223,5 +229,30 @@ header {
 
 img#featured {
   height: 100%; }
+
+/*
+*
+*	declantyson/2017/blogs
+*	Declan Tyson
+*	v0.1.0
+*	30/03/2017
+*
+*/
+#ocelot-content .blogs {
+  text-align: center;
+  border-top: solid 1px #efefef;
+  margin-top: 30px; }
+  #ocelot-content .blogs a {
+    width: 100%;
+    padding: 30px 0;
+    border-bottom: solid 1px #efefef; }
+    #ocelot-content .blogs a h3 {
+      margin: 0; }
+    #ocelot-content .blogs a span {
+      font-weight: lighter; }
+    #ocelot-content .blogs a:after {
+      margin-top: 10px; }
+    #ocelot-content .blogs a:hover:after {
+      width: 200px; }
 
 /*# sourceMappingURL=styles.css.map */
