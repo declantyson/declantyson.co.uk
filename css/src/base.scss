@@ -58,6 +58,7 @@ h4 {
 	margin: 0px;
 	padding-bottom: 10px;
 	border-bottom: solid 1px #efefef;
+	font-weight: lighter;
 }
 
 .clear, .clearfix {
@@ -70,8 +71,9 @@ h4 {
 img#featured {
 	position: fixed;
 	object-fit: cover;
+	object-position: bottom;
 	z-index: -1;
-	top: 0px;
+	bottom: 0px;
 	left: 0px;
 	width: 100%;
 	@include transition(opacity 0.25s linear);

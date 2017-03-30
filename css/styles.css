@@ -53,7 +53,8 @@ h4 {
   letter-spacing: 2px;
   margin: 0px;
   padding-bottom: 10px;
-  border-bottom: solid 1px #efefef; }
+  border-bottom: solid 1px #efefef;
+  font-weight: lighter; }
 
 .clear, .clearfix {
   clear: both; }
@@ -63,8 +64,9 @@ h4 {
 img#featured {
   position: fixed;
   object-fit: cover;
+  object-position: bottom;
   z-index: -1;
-  top: 0px;
+  bottom: 0px;
   left: 0px;
   width: 100%;
   -webkit-transition: opacity 0.25s linear;
