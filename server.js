@@ -84,7 +84,14 @@ app.get('/blog', function(req,res) {
                };
 
            blogs.push(blog);
-        });
+       });
+
+       blogs = blogs.sort(function(a,b){
+           a = Date.parse(a.date.replace(/(\d{1,2})[a-z]{2}\b/i, ''));
+           b = Date.parse(b.date.replace(/(\d{1,2})[a-z]{2}\b/i, ''));
+           return a>b ? -1 : a<b ? 1 : 0;
+       });
+
         res.render('blog', {
             'package': package,
             'scripts': getScripts(),
