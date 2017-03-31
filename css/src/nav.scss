@@ -12,6 +12,7 @@ $navHeight: 30px;
 .navigation {
 	margin-top: -$contentPadding;
 	border-bottom: solid 1px #cdcdcd;
+	position: relative;
 	ul {
 		padding: 0;
 		margin: 0 0 0 -20px;
@@ -32,5 +33,29 @@ $navHeight: 30px;
 				background-color: #ffffff;
 			}
 		}
+	}
+}
+
+.drop {
+	height: 70px;
+	width: 70px;
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+	display: none;
+	cursor: pointer;
+	&:after {
+		content: ' ';
+		height: 100%;
+		width: 100%;
+		background-image: url('/assets/drop.png');
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: $navHeight - 10px;
+		display: block;
+		animation: arrowScroll 1s infinite;
+	}
+	&.in {
+		display: block;
 	}
 }

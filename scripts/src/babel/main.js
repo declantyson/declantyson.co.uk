@@ -44,11 +44,13 @@ const ocelotCallback = () => {
 
     setTimeout(() => {
         header.className = 'in';
+        let scrollPoint = document.querySelector('#total').clientHeight / 4;
 
-        if (window.location.pathname !== "/") {
-            scrollPage(500);
-        } else {
+        if (window.location.pathname === "/") {
             document.querySelector('#total').scrollTop = 0;
+        } else if (document.querySelector('#total').scrollTop <= scrollPoint) {
+            //scrollPage(500, scrollPoint);
+            document.querySelector('.drop').className = "drop in";
         }
     }, 200);
 };
@@ -70,12 +72,32 @@ window.onload = () => {
     if (typeof ocelot.events[window.location.pathname] !== "undefined") ocelot.events[window.location.pathname]();
 };
 
-const scrollPage = scrollDuration => {
+document.querySelector('#total').onscroll = () => {
+    let scrollPoint = document.querySelector('#total').clientHeight / 4;
+    if (document.querySelector('#total').scrollTop <= scrollPoint + 10) {
+        document.querySelector('.drop').className = "drop in";
+    } else {
+        document.querySelector('.drop').className = "drop";
+    }
+};
+
+document.querySelector('.drop').onclick = () => {
+    let scrollPoint = document.querySelector('#total').clientHeight / 4;
+    if (document.body.clientWidth < 640) {
+        scrollPoint = false;
+    }
+
+    scrollPage(500, scrollPoint);
+};
+
+const scrollPage = (scrollDuration, stopPoint = false) => {
     let view = document.querySelector('#total'),
         header = document.querySelector('header'),
-        bottom = view.scrollHeight - view.clientHeight,
-        stopPoint = bottom < header.offsetTop - 40 ? bottom : header.offsetTop - 40,
-        scrollStep = stopPoint / (scrollDuration / 15),
+        bottom = view.scrollHeight - view.clientHeight;
+
+    if (!stopPoint) stopPoint = bottom < header.offsetTop - 40 ? bottom : header.offsetTop - 40;
+
+    let scrollStep = stopPoint / (scrollDuration / 15),
         scrollInterval = setInterval(() => {
         if (view.scrollTop < stopPoint) {
             view.scrollTop += scrollStep;

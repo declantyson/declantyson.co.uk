@@ -81,3 +81,25 @@
 		border-top:    $perpendicular-borders;
 	}
 }
+
+@keyframes arrowScroll {
+	0% {
+		opacity: 0;
+		background-position-y: 10px;
+	}
+
+	30% {
+		opacity: 1;
+		background-position-y: 25px;
+	}
+
+	70% {
+		opacity: 1;
+		background-position-y: 25px;
+	}
+
+	100% {
+		opacity: 0;
+		background-position-y: 30px;
+	}
+}

@@ -17,6 +17,19 @@
 *
 */
 /* Mixins */
+@keyframes arrowScroll {
+  0% {
+    opacity: 0;
+    background-position-y: 10px; }
+  30% {
+    opacity: 1;
+    background-position-y: 25px; }
+  70% {
+    opacity: 1;
+    background-position-y: 25px; }
+  100% {
+    opacity: 0;
+    background-position-y: 30px; } }
 html {
   overflow: hidden;
   background-color: #000; }
@@ -155,7 +168,8 @@ header {
 */
 .navigation {
   margin-top: -20px;
-  border-bottom: solid 1px #cdcdcd; }
+  border-bottom: solid 1px #cdcdcd;
+  position: relative; }
   .navigation ul {
     padding: 0;
     margin: 0 0 0 -20px; }
@@ -176,6 +190,27 @@ header {
       position: relative; }
       .navigation ul li:hover {
         background-color: #ffffff; }
+
+.drop {
+  height: 70px;
+  width: 70px;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  display: none;
+  cursor: pointer; }
+  .drop:after {
+    content: ' ';
+    height: 100%;
+    width: 100%;
+    background-image: url("/assets/drop.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 20px;
+    display: block;
+    animation: arrowScroll 1s infinite; }
+  .drop.in {
+    display: block; }
 
 /*
 *
