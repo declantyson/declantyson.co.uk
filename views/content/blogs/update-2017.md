@@ -1,14 +1,14 @@
 # Two thousand and seventeen
 
-###### A new start, a new look, a new stack
+###### A new start, a new look, a new stack.
 
 #### 27th March 2017
 
 Hello, hello, hello.
 
-Welcome to my completely, brand-spanking-new website. declantyson.net is no more. Welcome to *domain to go here*.
+Welcome to my completely, brand-spanking-new website. Nearly every remnant of the last site is gone, and the new one has been built from the ground up.
  
- Why did I drop declantyson.net? Well, a few reasons. The domain no longer made sense, as the new website is no longer built on .net. I have all of the work that I have painstakingly put into the Mynx CMS over the past six years backed up in [Github](http://github.com/mynxsoft/mynx), but it will no longer be a part of my personal website. The reason for this change is simple - my focus is no longer in ASP and so my website should reflect that.
+ Why did I drop it? Well, a few reasons. I have all of the work that I have painstakingly put into the Mynx CMS over the past six years backed up in [Github](http://github.com/mynxsoft/mynx), but it will no longer be a part of my personal website. The reason for this change is simple - my focus is no longer in ASP and so my website should reflect that.
  
  You are looking at a full-stack JavaScript application. I've actually dropped the CMS idea altogether, although it will eventually rear its ugly head later down the line. The thing is, Mynx was great as a tool for users to edit their content, but as a developer, I just want to write without any distractions, and I often want to embed silly little code snippets and custom templates, which was a lot of effort when you have to piss about with database structure. So, Mynx is no more, and instead I'm planning to rewrite the entire blog backlog in Markdown.
  
