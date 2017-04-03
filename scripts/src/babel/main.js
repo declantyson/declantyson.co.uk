@@ -12,6 +12,9 @@ const Ocelot = require('ocelot-pjax');
 let ocelot = new Ocelot.Pjax();
 
 const ocelotCallback = () => {
+
+    document.querySelector('#total').scrollTop = 0;
+
     let header = document.querySelector('header'),
         pageTitle = document.querySelector('#ocelot-content h1'),
         pageSubTitle = document.querySelector('#ocelot-content h6'),
@@ -46,9 +49,7 @@ const ocelotCallback = () => {
         header.className = 'in';
         let scrollPoint = document.querySelector('#total').clientHeight / 4;
 
-        if (window.location.pathname === "/") {
-            document.querySelector('#total').scrollTop = 0;
-        } else if (document.querySelector('#total').scrollTop <= scrollPoint) {
+        if (window.location.pathname === "/") {} else if (document.querySelector('#total').scrollTop <= scrollPoint) {
             //scrollPage(500, scrollPoint);
             document.querySelector('.drop').className = "drop in";
         }
