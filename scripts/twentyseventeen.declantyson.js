@@ -3,7 +3,7 @@
   *  twentyseventeen.declantyson 
   *  Declan Tyson 
   *  v0.1.0 
-  *  03/04/2017 
+  *  04/04/2017 
   * 
   */
 
@@ -40,6 +40,7 @@ const ocelotCallback = () => {
     document.querySelector('#total').scrollTop = 0;
 
     let header = document.querySelector('header'),
+        navigation = document.querySelector('.navigation'),
         pageTitle = document.querySelector('#ocelot-content h1'),
         pageSubTitle = document.querySelector('#ocelot-content h6'),
         pageTitleH1 = document.createElement('h1'),
@@ -71,6 +72,8 @@ const ocelotCallback = () => {
 
     setTimeout(() => {
         header.className = 'in';
+        header.style.marginTop = "calc(100vh - " + (header.clientHeight + navigation.clientHeight + 20) + "px)";
+
         let scrollPoint = document.querySelector('#total').clientHeight / 4;
 
         if (window.location.pathname === "/") {} else if (document.querySelector('#total').scrollTop <= scrollPoint) {

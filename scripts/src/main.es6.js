@@ -16,6 +16,7 @@ const ocelotCallback = () => {
     document.querySelector('#total').scrollTop = 0;
 
     let header = document.querySelector('header'),
+        navigation = document.querySelector('.navigation'),
         pageTitle = document.querySelector('#ocelot-content h1'),
         pageSubTitle = document.querySelector('#ocelot-content h6'),
         pageTitleH1 = document.createElement('h1'),
@@ -47,6 +48,8 @@ const ocelotCallback = () => {
 
     setTimeout(() => {
         header.className = 'in';
+        header.style.marginTop = "calc(100vh - " + (header.clientHeight + navigation.clientHeight + 20) + "px)";
+
         let scrollPoint = document.querySelector('#total').clientHeight / 4;
 
         if(window.location.pathname === "/") {
