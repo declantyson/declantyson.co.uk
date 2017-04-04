@@ -2,8 +2,8 @@
  *
  *  declantyson/2017/main
  *  Declan Tyson
- *  v0.1.1
- *  30/03/2017
+ *  v0.1.2
+ *  04/04/2017
  *
  */
 
@@ -50,8 +50,12 @@ const ocelotCallback = () => {
     featuredImg.onload = () => {
         featuredImg.style.opacity = 1;
 
+        let offset = header.clientHeight + navigation.clientHeight + 20;
+        if (navigator.userAgent.match(/Android/g)) offset += 55;
+        if (navigator.userAgent.match(/iPhone/g)) offset += 95;
+
         header.className = 'in';
-        header.style.marginTop = "calc(100vh - " + (header.clientHeight + navigation.clientHeight + 20) + "px)";
+        header.style.marginTop = "calc(100vh - " + offset + "px)";
 
         let scrollPoint = document.querySelector('#total').clientHeight / 4;
 

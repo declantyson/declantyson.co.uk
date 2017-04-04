@@ -2,8 +2,8 @@
 *
 *	declantyson/2017/base
 *	Declan Tyson
-*	v0.1.1
-*	30/03/2017
+*	v0.1.2
+*	04/04/2017
 *
 */
 /* Defaults */
@@ -129,6 +129,7 @@ img#featured {
   bottom: 0px;
   left: 0px;
   width: 100%;
+  opacity: 0;
   -webkit-transition: opacity 0.25s linear;
   -moz-transition: opacity 0.25s linear;
   -o-transition: opacity 0.25s linear;
