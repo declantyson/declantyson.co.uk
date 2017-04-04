@@ -25,7 +25,10 @@ const ocelotCallback = () => {
         fileName = window.location.pathname.substr(1, window.location.pathname.length - 1),
         featuredImg = document.getElementById('featured');
 
-    if (bodyClassName === '') bodyClassName = 'homepage';
+    if (bodyClassName === '') {
+        bodyClassName = 'homepage';
+        fileName = 'homepage';
+    }
     document.body.className = bodyClassName;
 
     let titlePrefix = "Declan Tyson | ";
