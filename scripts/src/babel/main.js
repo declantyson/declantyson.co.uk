@@ -21,14 +21,12 @@ const ocelotCallback = () => {
         pageSubTitle = document.querySelector('#ocelot-content h6'),
         pageTitleH1 = document.createElement('h1'),
         pageSubTitlePara = document.createElement('p'),
-        bodyClassName = window.location.pathname.replace('/', ''),
+        bodyClassName = window.location.pathname.replace(/\//g, ''),
+        fileName = window.location.pathname.substr(1, window.location.pathname.length - 1),
         featuredImg = document.getElementById('featured');
 
     if (bodyClassName === '') bodyClassName = 'homepage';
     document.body.className = bodyClassName;
-
-    featuredImg.setAttribute("src", "/assets/" + bodyClassName + ".png");
-    featuredImg.style.opacity = 1;
 
     let titlePrefix = "Declan Tyson | ";
     if (bodyClassName === 'homepage') {
@@ -46,7 +44,9 @@ const ocelotCallback = () => {
 
     ocelot.fadeContent(1);
 
-    setTimeout(() => {
+    featuredImg.onload = () => {
+        featuredImg.style.opacity = 1;
+
         header.className = 'in';
         header.style.marginTop = "calc(100vh - " + (header.clientHeight + navigation.clientHeight + 20) + "px)";
 
@@ -56,7 +56,12 @@ const ocelotCallback = () => {
             //scrollPage(500, scrollPoint);
             document.querySelector('.drop').className = "drop in";
         }
-    }, 200);
+    };
+
+    if (window.innerWidth < 480) {
+        fileName = "mobile/" + fileName;
+    }
+    featuredImg.setAttribute("src", "/assets/" + fileName + ".png");
 };
 
 ocelot.prePopCallback = () => {
@@ -92,6 +97,16 @@ document.querySelector('.drop').onclick = () => {
     }
 
     scrollPage(500, scrollPoint);
+};
+
+window.onresize = () => {
+    let fileName = window.location.pathname.substr(1, window.location.pathname.length - 1);
+
+    if (window.innerWidth < 480) {
+        fileName = "mobile/" + fileName;
+    }
+
+    document.querySelector('#featured').setAttribute("src", "/assets/" + fileName + ".png");
 };
 
 const scrollPage = (scrollDuration, stopPoint = false) => {
