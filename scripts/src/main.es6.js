@@ -106,6 +106,7 @@ document.querySelector('.drop').onclick = () => {
 
 window.onresize = () => {
     let fileName = window.location.pathname.substr(1, window.location.pathname.length - 1);
+    if(fileName === '') fileName = 'homepage';
 
     if(window.innerWidth < 480) {
         fileName = "mobile/" + fileName;
