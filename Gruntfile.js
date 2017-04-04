@@ -15,6 +15,13 @@ module.exports = function(grunt) {
                 options: {
 
                 }
+            },
+            images : {
+                files: ['assets/*.png', 'assets/blog/*.png'],
+                tasks: ['resize_crop'],
+                options: {
+
+                }
             }
         },
         sass : {
@@ -106,6 +113,53 @@ module.exports = function(grunt) {
                 src: ['scripts/*.js', '!scripts/src/*.js', '!scripts/lib/*.js', '!scripts/babel/*.js'],
                 dest: 'scripts/<%= pkg.name %>.min.js'
             }
+        },
+        resize_crop: {
+            mobile: {
+                options: {
+                    height: 740,
+                    width: 420
+                },
+                files: {
+                    'assets/mobile': [
+                        'assets/*.png'
+                    ],
+                    'assets/mobile/blog': [
+                        'assets/blog/*.png',
+                        '!assets/blog/update-2017.png'
+                    ]
+                }
+            },
+            mobile_offset_right: {
+                options: {
+                    height: 740,
+                    width: 420,
+                    gravity: "east"
+                },
+                files: {
+                    'assets/mobile': [
+                        'assets/*.png'
+                    ],
+                    'assets/mobile/blog': [
+                        'assets/blog/update-2017.png'
+                    ]
+                }
+            },
+            mobile_offset_left: {
+                options: {
+                    height: 740,
+                    width: 420,
+                    gravity: "east"
+                },
+                files: {
+                    'assets/mobile': [
+
+                    ],
+                    'assets/mobile/blog': [
+
+                    ]
+                }
+            }
         }
     });
 
@@ -118,6 +172,7 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-babel');
     grunt.loadNpmTasks('grunt-browserify');
     grunt.loadNpmTasks('grunt-notify');
+    grunt.loadNpmTasks('grunt-resize-crop');
     grunt.registerTask('default', ['watch']);
     grunt.registerTask('init', ['sass', 'cssmin', 'uglify']);
 };

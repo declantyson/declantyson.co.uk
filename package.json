@@ -1,6 +1,6 @@
 {
   "name": "twentyseventeen.declantyson",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "",
   "main": "Gruntfile.js",
   "directories": {
@@ -24,7 +24,8 @@
     "grunt-contrib-sass": "^1.0.0",
     "grunt-contrib-uglify": "^2.1.0",
     "grunt-contrib-watch": "^1.0.0",
-    "grunt-notify": "^0.4.5"
+    "grunt-notify": "^0.4.5",
+    "grunt-resize-crop": "0.0.1"
   },
   "dependencies": {
     "babelify": "^7.3.0",
