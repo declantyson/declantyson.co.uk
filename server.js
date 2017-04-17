@@ -100,6 +100,82 @@ app.get('/blog', function(req,res) {
     });
 });
 
+
+app.get('/awards/:slug', function(req,res) {
+    let awards = [];
+
+    fs.readdir('views/content/awards/', (err, files) => {
+        if(err) throw err;
+        files.forEach((file) => {
+            let md = new MarkdownIt(),
+                content = fs.readFileSync(`views/content/awards/${file}`, 'utf-8');
+
+            let rendered = md.render(content),
+                award = {
+                    url: `/awards/${file.replace('.md', '')}`,
+                    title: file.replace('.md', '')
+                };
+
+            awards.push(award);
+        });
+
+        awards = awards.sort(function(a,b){
+            a = parseInt(a.title);
+            b = parseInt(b.title);
+            return a>b ? -1 : a<b ? 1 : 0;
+        });
+
+        let md = new MarkdownIt(),
+            file = `views/content/awards/${req.params.slug}.md`;
+
+        fs.readFile(file, 'utf-8', (err, content) => {
+            if (err) {
+                console.error(err);
+                content = "# 404 \n ###### Page not found \n Sorry about that. Please check out the rest of the site!"
+                res.status(404);
+            }
+            res.render("view-awards", {
+                'package': package,
+                'scripts': getScripts(),
+                'content': md.render(content),
+                'awards' : awards
+            });
+        });
+    });
+});
+
+app.get('/awards', function(req,res) {
+    let awards = [];
+
+    fs.readdir('views/content/awards/', (err, files) => {
+       if(err) throw err;
+       files.forEach((file) => {
+           let md = new MarkdownIt(),
+               content = fs.readFileSync(`views/content/awards/${file}`, 'utf-8');
+
+           let rendered = md.render(content),
+               award = {
+                   url: `/awards/${file.replace('.md', '')}`,
+                   title: file.replace('.md', '')
+               };
+
+           awards.push(award);
+       });
+
+       awards = awards.sort(function(a,b){
+           a = parseInt(a.title);
+           b = parseInt(b.title);
+           return a>b ? -1 : a<b ? 1 : 0;
+       });
+
+        res.render('awards', {
+            'package': package,
+            'scripts': getScripts(),
+            'awards' : awards
+        });
+    });
+});
+
 app.get('/:template', function(req,res) {
     res.render(req.params.template, {
         'package': package,

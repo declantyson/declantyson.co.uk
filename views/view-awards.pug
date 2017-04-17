@@ -7,6 +7,9 @@ html
 	body
 		#total
 			include includes/fancy-loading-transition
+
+			img#featured(src='/assets/home-temp.png')
+
 			header
 
 			#container
@@ -14,7 +17,12 @@ html
 					.navigation
 						include includes/nav
 					#ocelot-content
-						include:markdown-it content/intro.md
+						include:markdown-it content/awards.md
+						.awards-sidebar
+							each award in awards
+								a(href=award.url)
+									h3= award.title
+						.awards-copy !{ content }
 
 			each script in scripts
 				script(src=script)
