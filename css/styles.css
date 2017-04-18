@@ -100,7 +100,7 @@ html, body {
   font-weight: 300;
   height: 100%; }
 
-p {
+p, ol, ul {
   font-size: 18px;
   line-height: 28px; }
 
@@ -344,6 +344,9 @@ img#featured {
     #ocelot-content .blogs a:hover:after {
       width: 200px; }
 
+.blogthe-bowie-effect #featured {
+  object-position: top; }
+
 /*
 *
 *	declantyson/2017/awards
@@ -378,8 +381,7 @@ body[class^="awards"] #container {
       display: block;
       margin: 0 auto; }
       body[class^="awards"] #container .awards-content a:hover:after {
-        width: 100px;
-        border-color: #afa922; }
+        width: 100px; }
       body[class^="awards"] #container .awards-content a:last-of-type {
         border-bottom: none; }
   body[class^="awards"] #container .awards-sidebar {
@@ -396,8 +398,7 @@ body[class^="awards"] #container {
         -ms-transform: translateX(-50%) translateY(-10px);
         transform: translateX(-50%) translateY(-10px); }
       body[class^="awards"] #container .awards-sidebar a:hover:after {
-        width: 40px;
-        border-color: #afa922; }
+        width: 40px; }
     @media screen and (max-width: 640px) {
       body[class^="awards"] #container .awards-sidebar {
         float: none;
@@ -416,6 +417,8 @@ body[class^="awards"] #container {
     padding: 60px 20px 60px 40px;
     float: right;
     color: #cdcdcd; }
+    body[class^="awards"] #container .awards-copy img {
+      width: 100%; }
     @media screen and (max-width: 640px) {
       body[class^="awards"] #container .awards-copy {
         width: calc(100% - 40px);
@@ -423,5 +426,10 @@ body[class^="awards"] #container {
         float: none; } }
   body[class^="awards"] #container a {
     color: #afa922; }
+    body[class^="awards"] #container a:after {
+      border-color: #afa922; }
+
+.awards2016 h1 {
+  font-family: 'Chiller', 'Marker Felt', sans-serif; }
 
 /*# sourceMappingURL=styles.css.map */

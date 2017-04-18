@@ -42,7 +42,7 @@ html, body {
 	height: 100%;
 }
 
-p {
+p, ol, ul {
 	font-size: $paragraphFontSize;
 	line-height: #{$paragraphFontSize + 10};
 }

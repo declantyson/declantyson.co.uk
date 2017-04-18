@@ -50,7 +50,6 @@ body[class^="awards"] {
                 &:hover {
                     &:after {
                         width: 100px;
-                        border-color: $awardsGold;
                     }
                 }
                 &:last-of-type {
@@ -73,7 +72,6 @@ body[class^="awards"] {
                 &:hover {
                     &:after {
                         width: 40px;
-                        border-color: $awardsGold;
                     }
                 }
             }
@@ -100,6 +98,9 @@ body[class^="awards"] {
             padding: 60px 20px 60px 40px;
             float: right;
             color: #cdcdcd;
+            img {
+                width: 100%;
+            }
             @media screen and (max-width:640px) {
                 width: calc(100% - 40px);
                 padding: 20px;
@@ -109,6 +110,16 @@ body[class^="awards"] {
 
         a {
             color: $awardsGold;
+            &:after {
+                border-color: $awardsGold;
+            }
         }
+    }
+}
+
+
+.awards2016 {
+    h1 {
+        font-family: 'Chiller', 'Marker Felt', sans-serif;
     }
 }
