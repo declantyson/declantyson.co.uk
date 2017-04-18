@@ -120,8 +120,14 @@ app.get('/awards/:slug', function(req,res) {
         });
 
         awards = awards.sort(function(a,b){
-            a = parseInt(a.title);
-            b = parseInt(b.title);
+            let endYearA= a.title.split("-");
+            endYearA = endYearA[endYearA.length - 1];
+
+            let endYearB= b.title.split("-");
+            endYearB = endYearB[endYearB.length - 1];
+
+            a = parseInt(endYearA);
+            b = parseInt(endYearB);
             return a>b ? -1 : a<b ? 1 : 0;
         });
 
@@ -162,11 +168,17 @@ app.get('/awards', function(req,res) {
            awards.push(award);
        });
 
-       awards = awards.sort(function(a,b){
-           a = parseInt(a.title);
-           b = parseInt(b.title);
-           return a>b ? -1 : a<b ? 1 : 0;
-       });
+        awards = awards.sort(function(a,b){
+            let endYearA= a.title.split("-");
+            endYearA = endYearA[endYearA.length - 1];
+
+            let endYearB= b.title.split("-");
+            endYearB = endYearB[endYearB.length - 1];
+
+            a = parseInt(endYearA);
+            b = parseInt(endYearB);
+            return a>b ? -1 : a<b ? 1 : 0;
+        });
 
         res.render('awards', {
             'package': package,

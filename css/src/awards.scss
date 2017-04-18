@@ -34,14 +34,14 @@ body[class^="awards"] {
         min-height: 100%;
 
         #ocelot-content {
-            padding: 60px 0;
+            padding: 0;
         }
 
         .awards-content {
             width: 100%;
             a {
                 border-bottom: solid 1px #333;
-                padding: 30px 0;
+                padding: 10px 0;
                 width: 100%;
                 text-align: center;
                 max-width: 540px;
@@ -60,6 +60,7 @@ body[class^="awards"] {
         }
 
         .awards-sidebar {
+            padding: 60px 0;
             width: 150px;
             float: left;
             border-right: solid 1px #333;
@@ -76,13 +77,34 @@ body[class^="awards"] {
                     }
                 }
             }
+
+            @media screen and (max-width:640px) {
+                float: none;
+                width: 100%;
+                padding: 20px 0;
+                border-right: none;
+                border-bottom: solid 1px #333333;
+                a {
+                    width: auto;
+                    display: inline-block;
+                    padding: 0 20px;
+                    h3 {
+                        display: inherit;
+                    }
+                }
+            }
         }
 
         .awards-copy {
             width: calc(100% - 220px);
-            padding: 0 20px 0 40px;
+            padding: 60px 20px 60px 40px;
             float: right;
             color: #cdcdcd;
+            @media screen and (max-width:640px) {
+                width: calc(100% - 40px);
+                padding: 20px;
+                float: none;
+            }
         }
 
         a {
