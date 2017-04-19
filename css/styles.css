@@ -121,6 +121,12 @@ h4 {
   .clear.padout, .clearfix.padout {
     padding: 20px 0; }
 
+blockquote {
+  margin: 40px 5px;
+  border-left: solid 3px #999;
+  padding: 0 20px;
+  font-style: italic; }
+
 img#featured {
   position: fixed;
   object-fit: cover;

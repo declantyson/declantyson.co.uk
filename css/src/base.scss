@@ -68,6 +68,13 @@ h4 {
 	}
 }
 
+blockquote {
+	margin: 40px 5px;
+	border-left: solid 3px #999;
+	padding: 0 20px;
+	font-style: italic;
+}
+
 img#featured {
 	position: fixed;
 	object-fit: cover;
