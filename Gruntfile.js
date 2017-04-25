@@ -17,7 +17,7 @@ module.exports = function(grunt) {
                 }
             },
             images : {
-                files: ['assets/*.png', 'assets/blog/*.png'],
+                files: ['assets/*.png', 'assets/blog/*.png', 'assets/blogalongabond/*.png'],
                 tasks: ['resize_crop'],
                 options: {
 
@@ -127,6 +127,20 @@ module.exports = function(grunt) {
                     'assets/mobile/blog': [
                         'assets/blog/*.png',
                         '!assets/blog/update-2017.png'
+                    ],
+                    'assets/mobile/blogalongabond': [
+                        'assets/blogalongabond/*.png'
+                    ]
+                }
+            },
+            thumb: {
+                options: {
+                    height: 240,
+                    width: 480
+                },
+                files: {
+                    'assets/thumbs/blogalongabond': [
+                        'assets/blogalongabond/*.png'
                     ]
                 }
             },
@@ -149,7 +163,7 @@ module.exports = function(grunt) {
                 options: {
                     height: 740,
                     width: 420,
-                    gravity: "east"
+                    gravity: "west"
                 },
                 files: {
                     'assets/mobile': [

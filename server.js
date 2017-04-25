@@ -2,8 +2,8 @@
  *
  *  declantyson/2017
  *  Declan Tyson
- *  v0.1.0
- *  27/03/2017
+ *  v0.1.1
+ *  25/04/2017
  *
  */
 
@@ -100,6 +100,66 @@ app.get('/blog', function(req,res) {
     });
 });
 
+
+app.get('/blogalongabond/:slug', function(req,res) {
+    let md = new MarkdownIt(),
+        file = `views/content/blogs-bond/${req.params.slug}.md`;
+
+    fs.readFile(file, 'utf-8', (err, content) => {
+        if (err) {
+            console.error(err);
+            content = "# 404 \n ###### Page not found \n Sorry about that. Please check out the rest of the site!"
+            res.status(404);
+        }
+        res.render("view-blog", {
+            'package': package,
+            'scripts': getScripts(),
+            'content': md.render(content)
+        });
+    });
+});
+
+
+app.get('/blogalongabond', function(req,res) {
+    let blogs = [];
+
+    fs.readdir('views/content/blogs-bond/', (err, files) => {
+       if(err) throw err;
+       files.forEach((file) => {
+           let md = new MarkdownIt(),
+               content = fs.readFileSync(`views/content/blogs-bond/${file}`, 'utf-8');
+
+           let rendered = md.render(content),
+               titleStartIndex = rendered.indexOf("<h1>") + 4,
+               dateStartIndex = rendered.indexOf("<h4>") + 4,
+               titleEndIndex = rendered.indexOf("</h1>") ,
+               dateEndIndex = rendered.indexOf("</h4>") ,
+               blogTitle = rendered.substring(titleStartIndex, titleEndIndex),
+               blogDate = rendered.substring(dateStartIndex, dateEndIndex),
+               blogUrl = file.replace('.md', ''),
+               blog = {
+                   url: `/blogalongabond/${blogUrl}`,
+                   title: blogTitle,
+                   date: blogDate,
+                   thumb: `/assets/thumbs/blogalongabond/${blogUrl}.png`
+               };
+
+           blogs.push(blog);
+       });
+
+       blogs = blogs.sort(function(a,b){
+           a = Date.parse(a.date.replace(/(\d{1,2})[a-z]{2}\b/i, ''));
+           b = Date.parse(b.date.replace(/(\d{1,2})[a-z]{2}\b/i, ''));
+           return a>b ? -1 : a<b ? 1 : 0;
+       });
+
+        res.render('blogalongabond', {
+            'package': package,
+            'scripts': getScripts(),
+            'blogs' : blogs
+        });
+    });
+});
 
 app.get('/awards/:slug', function(req,res) {
     let awards = [];
