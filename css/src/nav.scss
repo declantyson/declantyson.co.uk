@@ -2,8 +2,8 @@
 *
 *	declantyson/2017/home
 *	Declan Tyson
-*	v0.1.0
-*	27/03/2017
+*	v0.1.1
+*	25/04/2017
 *
 */
 
@@ -29,6 +29,11 @@ $navHeight: 30px;
 			line-height: $navHeight;
 			font-weight: 600;
 			position: relative;
+			@media screen and (max-width: 640px) {
+				font-size: 14px;
+				padding: 15px;
+				line-height: $navHeight * 0.66;
+			}
 			&:hover {
 				background-color: #ffffff;
 			}
@@ -57,5 +62,8 @@ $navHeight: 30px;
 	}
 	&.in {
 		display: block;
+		@media screen and (max-width: 640px) {
+			display: none;
+		}
 	}
 }
