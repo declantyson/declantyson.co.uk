@@ -22,8 +22,9 @@ html
 							each blog in blogs
 								a(href=blog.url)
 									img(src=blog.thumb)
-									h3= blog.title
-									span= blog.date
+									.thumb-content
+										h3= blog.title
+										span= blog.date
 
 			each script in scripts
 				script(src=script)

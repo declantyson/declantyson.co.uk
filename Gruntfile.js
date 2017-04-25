@@ -152,7 +152,7 @@ module.exports = function(grunt) {
                 },
                 files: {
                     'assets/mobile': [
-
+                        'assets/blogalongabond.png'
                     ],
                     'assets/mobile/blog': [
                         'assets/blog/update-2017.png'
