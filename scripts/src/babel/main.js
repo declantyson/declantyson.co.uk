@@ -35,11 +35,11 @@ const ocelotCallback = () => {
     if (bodyClassName === 'homepage') {
         titlePrefix = "";
     }
-    document.title = titlePrefix + pageTitle.innerText;
-    pageTitleH1.innerText = pageTitle.innerText;
+    document.title = titlePrefix + pageTitle.innerHTML;
+    pageTitleH1.innerHTML = pageTitle.innerHTML;
     pageTitle.remove();
 
-    pageSubTitlePara.innerHTML = pageSubTitle.innerText;
+    pageSubTitlePara.innerHTML = pageSubTitle.innerHTML;
     pageSubTitle.remove();
 
     header.className = '';

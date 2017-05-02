@@ -21,7 +21,7 @@ html
 						.blogs
 							each blog in blogs
 								a(href=blog.url)
-									h3= blog.title
+									h3!= blog.title
 									span= blog.date
 
 			each script in scripts

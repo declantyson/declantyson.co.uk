@@ -346,9 +346,16 @@ img#featured {
   border-top: solid 1px #efefef;
   margin-top: 30px; }
   #ocelot-content .blogs a {
-    width: 100%;
+    width: 30%;
     padding: 30px 0;
-    border-bottom: solid 1px #efefef; }
+    border-bottom: solid 1px #efefef;
+    margin: 0 1%; }
+    @media screen and (max-width: 640px) {
+      #ocelot-content .blogs a {
+        width: 48%; } }
+    @media screen and (max-width: 480px) {
+      #ocelot-content .blogs a {
+        width: 98%; } }
     #ocelot-content .blogs a h3 {
       margin: 0; }
     #ocelot-content .blogs a span {

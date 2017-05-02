@@ -1,0 +1,21 @@
+# Comic Books Are Cool
+
+###### Guardians of the Galaxy is the latest success in bringing a "nerdy" pasttime into the mainstream
+
+#### 5th August 2015
+
+_Spoilers hereafter._
+
+Out of all the current films in the Marvel Cinematic Universe, Guardians of the Galaxy is the one that most feels like it's come from a comic book. Some of this stems from the fact that it's a combination of all the least grounded elements from the comic universe, and also that it pulls together five of the most unlikely characters to create a team. But mostly, it's because the dialogue is so blue and cheesy you could serve it as a side to Buffalo wings.
+
+Even in the more serious moments of the film, the comedy just doesn't stop - whether it comes from Rocket, the cute little badass, or Drax's difficulty with metaphors, or Star-Lord's complete and utter loser-ness. That said, this doesn't detract one bit from the quality of the action, of which there is plenty, ranging from ridiculous prison break fist-fights to space battles of an epic scale. Although the story is practically identical to that of _The Avengers_, there's enough quality here to set it apart - and, in my view, it is the superior film.
+
+"Awesome Mix Vol. 1" provides the excellent soundtrack of 70's music and it keeps the mood upbeat for the duration of the picture, whilst at the same time managing to lend some importance to story and character development. It helps to form the relationship between Star-Lord and Gamora, and acts as a symbol for Peter Quill's mother who passes away at the beginning of the film - it's clearly very sentimentally important to him, and he goes to great lengths to protect it. And then he uses the power of dance to distract Ronan just as the end seems nigh in the film's cheesiest moment of all.
+
+Let's focus a little more on the character of Peter Quill, AKA Star-Lord. He is, for all intents and purposes, the comic book geek's paragon. They can relate to his social ineptitude but aspire to his success with green women, his outlaw status and, of course, his badass costume that allows him to fly and breathe in space. Twenty years ago, he would have been cringed at by all but those loyal Marvel readers. Today, he is cool. Comics are no longer limited to the odd, derided schoolboy that wore horn-rimmed spectacles in the back-left corner of the classroom. They are the source material for some of the most critically and commercially successful films of all time.
+
+How, and when, did this happen? Whilst many comic book film series - like _Superman_, _X-Men_, Tim Burton's _Batman_ and _Spider-Man_ - had been relatively successful it's pretty safe to say that they were never considered to be top-quality cinema. It probably began with _Iron Man_ and _The Dark Knight_ in 2008, and is becoming slowly more true with each new adaptation. Christopher Nolan's take on Batman especially revitalised the public interest in superhero movies by taking a fresh look at the grittier side of the character, which Tim Burton had touched upon in 1989 but was too afraid to go whole hog, and Robert Downey Jr. has become the definitive Iron Man through his stellar performances.
+
+It's not surprising that these were the first two characters to become popular - they are rich, suave and intelligent characters that are portrayed by popular big-name actors - but since then the Marvel films have provided a platform for other slightly lesser-known actors (and perhaps less traditionally cool characters) to shine. The two that immediately jump to mind are Chris Hemsworth's _Thor_ and Chris Evans' _Captain America_. Although both actors were far from unknowns, they've managed to carve out a career-defining role (let's face it, the _Captain America_ films are much better than _Fantastic Four_ ever was), and so it may prove to be for Chris Pratt: despite his other roles, he will probably now be known forever more as Star-Lord, and to be quite honest, it's a hell of a compliment to his performance.
+
+The public's new-found love for comic book movies has led to _Guardians of the Galaxy_ setting an August opening weekend record of a cool $94 million. I'm also sure that downloads of _Hooked on a Feeling_ by Blue Swede will _skyRocket_ (sorry).
