@@ -365,7 +365,8 @@ img#featured {
     #ocelot-content .blogs a:hover:after {
       width: 200px; }
 
-.blogthe-bowie-effect #featured {
+.blogthe-bowie-effect #featured,
+.blogthe-worst-film-of-all-time #featured {
   object-position: top; }
 
 /*
