@@ -4,7 +4,7 @@
 
 #### 22nd June 2015
 
-__The following is a review of the fifth series of Game of Thrones and as such will contain spoilers. If you don't like that, turn back. It will also contain book spoilers.__
+**The following is a review of the fifth series of Game of Thrones and as such will contain spoilers. If you don't like that, turn back. It will also contain book spoilers.**
 
 Well. That was interesting.  
  

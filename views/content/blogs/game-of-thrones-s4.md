@@ -4,7 +4,7 @@
 
 #### 25th July 2014
 
-_Spoilers from this point on, you've been warned._
+**Spoilers from this point on, you've been warned.**
 
 For those who have not read the books in the _A Song of Ice and Fire_ series from which _Game of Thrones_ is based, this past season would most likely have been the most incredible yet. For the book readers, it has proved the be the most contentious.
 

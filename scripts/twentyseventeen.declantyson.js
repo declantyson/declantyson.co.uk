@@ -3,7 +3,7 @@
   *  twentyseventeen.declantyson 
   *  Declan Tyson 
   *  v0.1.2 
-  *  02/05/2017 
+  *  04/05/2017 
   * 
   */
 
@@ -45,7 +45,7 @@ const ocelotCallback = () => {
         pageSubTitle = document.querySelector('#ocelot-content h6'),
         pageTitleH1 = document.createElement('h1'),
         pageSubTitlePara = document.createElement('p'),
-        bodyClassName = window.location.pathname.replace(/\//g, ''),
+        bodyClassName = window.location.pathname.replace('/', '').replace(/\//g, '-'),
         fileName = window.location.pathname.substr(1, window.location.pathname.length - 1),
         featuredImg = document.getElementById('featured');
 

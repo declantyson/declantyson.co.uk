@@ -2,7 +2,7 @@
 
 ###### One hell of an album
 
-### 3rd July 2017
+#### 4th March 2013
 
 Bad Blood is the debut release from Bastille, the latest electro-indie band in the same vein as Passion Pit, The Naked and Famous and Wolf Gang. Bastille are the first band I've started listening to in a long time that I truly love: the two singles _Pompeii_ and _Flaws_ are both played so much that I risk making myself hate them, but they're just so good. So I've been pretty excited for an album simply so I don't ruin my two favourite songs. 
 
