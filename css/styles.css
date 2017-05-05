@@ -2,8 +2,8 @@
 *
 *	declantyson/2017/base
 *	Declan Tyson
-*	v0.1.3
-*	25/04/2017
+*	v0.1.5
+*	05/05/2017
 *
 */
 /* Defaults */
@@ -77,6 +77,19 @@
     transform: translateY(-5px) rotate(180deg); }
   36%, 48%, 100% {
     transform: translateY(0) rotate(180deg); } }
+/*
+*
+*	declantyson/2017/webfonts
+*	Declan Tyson
+*	v0.1.4
+*	05/05/2017
+*
+*/
+@font-face {
+  font-family: 'Chiller';
+  src: url("/assets/fonts/Chiller.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/Chiller.woff") format("woff"), url("/assets/fonts/Chiller.ttf") format("truetype"), url("/assets/fonts/Chiller.svg#Chiller") format("svg");
+  font-weight: normal;
+  font-style: normal; }
 html {
   overflow: hidden;
   background-color: #000; }
@@ -421,8 +434,8 @@ img#featured {
 *
 *	declantyson/2017/awards
 *	Declan Tyson
-*	v0.1.0
-*	17/04/2017
+*	v0.1.5
+*	05/05/2017
 *
 */
 body[class^="awards"] #fancy-loading-transition {
@@ -499,7 +512,8 @@ body[class^="awards"] #container {
     body[class^="awards"] #container a:after {
       border-color: #afa922; }
 
-.awards2016 h1 {
+.awards-2016 h1,
+.awards-2012 h1 {
   font-family: 'Chiller', 'Marker Felt', sans-serif; }
 
 /*# sourceMappingURL=styles.css.map */

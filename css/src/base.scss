@@ -2,8 +2,8 @@
 *
 *	declantyson/2017/base
 *	Declan Tyson
-*	v0.1.3
-*	25/04/2017
+*	v0.1.5
+*	05/05/2017
 *
 */
 
@@ -11,6 +11,7 @@
 
 @import url('https://fonts.googleapis.com/css?family=Patua+One|Raleway:300|Raleway:600');
 @import "mixins";
+@import "webfonts";
 
 $paragraphFontSize: 18px;
 $mobile: 480px;
