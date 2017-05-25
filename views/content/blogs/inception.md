@@ -1,0 +1,21 @@
+# Inception
+
+###### Unique, compelling and spectacular; Inception is a simply astonishing film
+
+#### 14th January 2011
+
+I did see Inception back in the summer when it came out, but I just watched it again for the second time and wanted to write about it when it was fresh in my mind. There seem to be two distinct camps of opinion regarding Christopher Nolan's summer blockbuster: those who think it is one of the best films of all time, and those who can't grasp why it has been so greatly hyped. Personally, I am in the former.
+
+Having said that, it's not difficult to see why people didn't like it that much. The plot is incredibly complex and unless you pay attention to every frame and syllable you could miss something vital that confuses you for the rest of the film - it's definitely not an easy watch. However I don't think ignorance of the plot is a justifiable excuse to not enjoy a visual masterpiece. The special effects and action sequences - whilst not particularly complicated - are very innovative, with the giant cities of dreams being manipulated and twisted and the brilliant zero-gravity fight scene providing a brilliant spectacle.
+
+Another criticism levelled at Inception is that it portrays dreams too logically, and that it does not show the "madness" that could happen by going into someone's dreams. I have two issues with this - firstly, that of course such an abstract concept could be interpreted in many different ways, and Nolan wasn't trying to show the "madness" or whatever, so frankly I consider that a moot point. The second argument I have is that the logic behind it is what makes it good. It takes someone highly intelligent to take something so abnormal and apply all these normal aspects of life to it as metaphors for dreams. If it was some ridiculously out-there plot that used metaphors without any meaning, it would frankly be crap. But the best part of this film is how set in real life it actually seems despite not being set in reality for the majority of it, and with metaphors such as the spinning totem being placed spinning never ending in Mal's mind, meaning that it was always there in "the back of her mind". Yes it's literal. But it makes perfect sense. Deal with it.
+
+Despite the lavish amount of praise I could throw at this film, I do have a couple of minor points to make about the filming itself (which I didn't expect). With such a complicated storyline, I expected that the second time through would be a lot more enjoyable because I wouldn't have to concentrate as much. I was dismayed to find that I instead noticed a couple of contradictions which bug me a little bit. A couple were so ridiculously minor that I can't even remember them, just a couple of mismatched shots here and there that were honestly barely noticeable. But the main thing that niggles is that before Cobb said to Mal that they had grown old together and the little montage of them with old wrinkled hands walking around their subconscious together is shown, their suicide scene is already shown with their heads on the rails, barely a day older than in real life.
+
+Again, it's a relatively minor point, but it still bugs me. Some might argue that it's in a dream within a dream, blah blah blah, but I don't think so. I think it's just a small oversight that will irritate a few people like myself who still enjoyed the film spectacularly.
+
+Nolan's film is in itself a massive maze, one of the most important metaphors in the film, but one that when you've navigated successfully, is very rewarding. You could take it literally in that when you get to the centre of the maze you're stuck with the final shot of the spinning top, wondering whether or not it toppled and so you've never truly found the way out of the plot, because you don't actually know how it ends.
+
+He managed to come up with what will become one of the greatest questions in cinema history, though: Did the totem drop? My answer is - it doesn't matter. The point is you don't know. If we saw it topple, it would be shit. If it didn't stop, it would have been shit. Instead he keeps the audience guessing.
+
+And just like the rest of this film, it's a stroke of genius.
