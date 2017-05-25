@@ -430,6 +430,9 @@ img#featured {
     #ocelot-content .blogs-bond a:hover:after {
       width: 120px; }
 
+.blogalongabond-the-day-i-met-james-bond #featured {
+  object-position: top; }
+
 /*
 *
 *	declantyson/2017/awards
