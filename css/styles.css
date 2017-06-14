@@ -291,6 +291,9 @@ header {
       .drop.in {
         display: none; } }
 
+body.homepage .drop.in {
+  display: none; }
+
 /*
 *
 *	declantyson/2017/page
