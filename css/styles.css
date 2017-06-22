@@ -306,6 +306,12 @@ body.homepage .drop.in {
   padding-bottom: 0; }
 .homepage #ocelot-content {
   padding: 0; }
+.homepage #container {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none; }
+.homepage header {
+  color: #000000; }
 
 header {
   color: #fff;
