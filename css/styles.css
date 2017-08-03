@@ -233,8 +233,8 @@ header {
 *
 *	declantyson/2017/home
 *	Declan Tyson
-*	v0.1.1
-*	25/04/2017
+*	v0.1.2
+*	03/08/2017
 *
 */
 .navigation {
@@ -264,8 +264,6 @@ header {
           font-size: 14px;
           padding: 15px;
           line-height: 19.8px; } }
-      .navigation ul li:hover {
-        background-color: #ffffff; }
 
 .drop {
   height: 70px;
@@ -447,8 +445,8 @@ img#featured {
 *
 *	declantyson/2017/awards
 *	Declan Tyson
-*	v0.1.5
-*	05/05/2017
+*	v0.1.6
+*	03/08/2017
 *
 */
 body[class^="awards"] #fancy-loading-transition {
@@ -462,14 +460,14 @@ body[class^="awards"] header {
 body[class^="awards"] .drop {
   display: none; }
 body[class^="awards"] #container {
-  background-color: #000000;
+  background-color: #dedede;
   min-height: 100%; }
   body[class^="awards"] #container #ocelot-content {
     padding: 0; }
   body[class^="awards"] #container .awards-content {
     width: 100%; }
     body[class^="awards"] #container .awards-content a {
-      border-bottom: solid 1px #333;
+      border-bottom: solid 1px #666666;
       padding: 10px 0;
       width: 100%;
       text-align: center;
@@ -484,7 +482,7 @@ body[class^="awards"] #container {
     padding: 60px 0;
     width: 150px;
     float: left;
-    border-right: solid 1px #333; }
+    border-right: solid 1px #666666; }
     body[class^="awards"] #container .awards-sidebar a {
       width: 100%;
       text-align: center; }
@@ -501,7 +499,7 @@ body[class^="awards"] #container {
         width: 100%;
         padding: 20px 0;
         border-right: none;
-        border-bottom: solid 1px #333333; }
+        border-bottom: solid 1px #666666; }
         body[class^="awards"] #container .awards-sidebar a {
           width: auto;
           display: inline-block;
@@ -512,7 +510,7 @@ body[class^="awards"] #container {
     width: calc(100% - 220px);
     padding: 60px 20px 60px 40px;
     float: right;
-    color: #cdcdcd; }
+    color: #333333; }
     body[class^="awards"] #container .awards-copy img {
       width: 100%; }
     @media screen and (max-width: 640px) {
@@ -521,9 +519,9 @@ body[class^="awards"] #container {
         padding: 20px;
         float: none; } }
   body[class^="awards"] #container a {
-    color: #afa922; }
+    color: #000000; }
     body[class^="awards"] #container a:after {
-      border-color: #afa922; }
+      border-color: #000000; }
 
 .awards-2016 h1,
 .awards-2012 h1 {

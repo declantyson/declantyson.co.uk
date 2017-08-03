@@ -2,12 +2,14 @@
 *
 *	declantyson/2017/awards
 *	Declan Tyson
-*	v0.1.5
-*	05/05/2017
+*	v0.1.6
+*	03/08/2017
 *
 */
 
-$awardsGold: #afa922;
+$awards: #dedede;
+$awardsBorder: #666666;
+//$awards: #afa922;
 
 body[class^="awards"] {
     #fancy-loading-transition {
@@ -30,7 +32,7 @@ body[class^="awards"] {
     }
 
     #container {
-        background-color: #000000;
+        background-color: $awards;
         min-height: 100%;
 
         #ocelot-content {
@@ -40,7 +42,7 @@ body[class^="awards"] {
         .awards-content {
             width: 100%;
             a {
-                border-bottom: solid 1px #333;
+                border-bottom: solid 1px $awardsBorder;
                 padding: 10px 0;
                 width: 100%;
                 text-align: center;
@@ -62,7 +64,7 @@ body[class^="awards"] {
             padding: 60px 0;
             width: 150px;
             float: left;
-            border-right: solid 1px #333;
+            border-right: solid 1px $awardsBorder;
             a {
                 width: 100%;
                 text-align: center;
@@ -81,7 +83,7 @@ body[class^="awards"] {
                 width: 100%;
                 padding: 20px 0;
                 border-right: none;
-                border-bottom: solid 1px #333333;
+                border-bottom: solid 1px $awardsBorder;
                 a {
                     width: auto;
                     display: inline-block;
@@ -97,7 +99,7 @@ body[class^="awards"] {
             width: calc(100% - 220px);
             padding: 60px 20px 60px 40px;
             float: right;
-            color: #cdcdcd;
+            color: #333333;
             img {
                 width: 100%;
             }
@@ -109,9 +111,9 @@ body[class^="awards"] {
         }
 
         a {
-            color: $awardsGold;
+            color: #000000;
             &:after {
-                border-color: $awardsGold;
+                border-color: #000000;
             }
         }
     }
