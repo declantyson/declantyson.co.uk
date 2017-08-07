@@ -49,3 +49,22 @@
 		object-position: top;
 	}
 }
+
+.blog-splatoon {
+	header {
+		h1, p {
+			position: relative;
+		}
+		h1 {
+			z-index: 3;
+		}
+		p {
+			z-index: 2;
+		}
+		img {
+			position: absolute;
+			margin-top: -110px;
+			z-index: -1;
+		}
+	}
+}
