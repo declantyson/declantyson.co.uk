@@ -126,7 +126,8 @@ module.exports = function(grunt) {
                     ],
                     'assets/mobile/blog': [
                         'assets/blog/*.png',
-                        '!assets/blog/update-2017.png'
+                        '!assets/blog/update-2017.png',
+                        '!assets/blog/game-of-thrones-s7.png'
                     ],
                     'assets/mobile/blogalongabond': [
                         'assets/blogalongabond/*.png'
@@ -155,7 +156,8 @@ module.exports = function(grunt) {
                         'assets/blogalongabond.png'
                     ],
                     'assets/mobile/blog': [
-                        'assets/blog/update-2017.png'
+                        'assets/blog/update-2017.png',
+                        'assets/blog/game-of-thrones-s7.png'
                     ]
                 }
             },
