@@ -452,6 +452,10 @@ img#featured {
 .blogalongabond-the-day-i-met-james-bond #featured {
   object-position: top; }
 
+.blogalongabond-casino-royale .content img, .blogalongabond-casino-royale header img {
+  display: block;
+  margin: 0 auto; }
+
 /*
 *
 *	declantyson/2017/awards
