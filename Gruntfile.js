@@ -188,5 +188,5 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-notify');
     grunt.loadNpmTasks('grunt-resize-crop');
     grunt.registerTask('default', ['watch']);
-    grunt.registerTask('init', ['sass', 'cssmin', 'uglify']);
+    grunt.registerTask('init', ['sass', 'cssmin', 'jshint', 'babel', 'browserify']);
 };

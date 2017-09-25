@@ -2,8 +2,8 @@
  *
  *  declantyson/2017
  *  Declan Tyson
- *  v0.1.1
- *  25/04/2017
+ *  v0.2.0
+ *  25/09/2017
  *
  */
 
@@ -35,6 +35,14 @@ const getScripts = () => {
 
     return files;
 };
+
+app.use(function forceLiveDomain(req, res, next) {
+    var host = req.get('Host');
+    if (host === 'www.declantyson.net') {
+        return res.redirect(301, 'http://www.declantyson.co.uk' + req.originalUrl);
+    }
+    return next();
+});
 
 app.get('/', function(req,res) {
     res.render('index', {
