@@ -38,7 +38,7 @@ const getScripts = () => {
 
 app.use(function forceLiveDomain(req, res, next) {
     var host = req.get('Host');
-    if (host === 'www.declantyson.net') {
+    if (host !== 'www.declantyson.net' && host !== 'localhost:1234') {
         return res.redirect(301, 'http://www.declantyson.co.uk' + req.originalUrl);
     }
     return next();

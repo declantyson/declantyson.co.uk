@@ -391,6 +391,17 @@ img#featured {
 .blog-game-of-thrones-s3 #featured {
   object-position: top; }
 
+.blog-splatoon header h1, .blog-splatoon header p {
+  position: relative; }
+.blog-splatoon header h1 {
+  z-index: 3; }
+.blog-splatoon header p {
+  z-index: 2; }
+.blog-splatoon header img {
+  position: absolute;
+  margin-top: -110px;
+  z-index: -1; }
+
 /*
 *
 *	declantyson/2017/blogalongabond
@@ -440,6 +451,10 @@ img#featured {
 
 .blogalongabond-the-day-i-met-james-bond #featured {
   object-position: top; }
+
+.blogalongabond-casino-royale .content img, .blogalongabond-casino-royale header img {
+  display: block;
+  margin: 0 auto; }
 
 /*
 *
