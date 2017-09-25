@@ -86,13 +86,13 @@ module.exports = function(grunt) {
                     '  * \n' +
                     '  */' +
                     '\n\n',
-                    transform: [["babelify"]],
+                    transform: [['babelify']],
                     browserifyOptions: {
                         standalone: '<%= pkg.name %>'
                     }
                 },
                 files: {
-                    "scripts/<%= pkg.name %>.js": "scripts/src/babel/*.js"
+                    'scripts/<%= pkg.name %>.js' : 'scripts/src/babel/*.js'
                 }
             }
         },
@@ -149,7 +149,7 @@ module.exports = function(grunt) {
                 options: {
                     height: 740,
                     width: 420,
-                    gravity: "east"
+                    gravity: 'east'
                 },
                 files: {
                     'assets/mobile': [
@@ -165,7 +165,7 @@ module.exports = function(grunt) {
                 options: {
                     height: 740,
                     width: 420,
-                    gravity: "west"
+                    gravity: 'west'
                 },
                 files: {
                     'assets/mobile': [

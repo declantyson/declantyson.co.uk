@@ -31,9 +31,9 @@ const ocelotCallback = () => {
     }
     document.body.className = bodyClassName;
 
-    let titlePrefix = "Declan Tyson | ";
+    let titlePrefix = 'Declan Tyson | ';
     if(bodyClassName === 'homepage') {
-        titlePrefix = "";
+        titlePrefix = '';
     }
     document.title = titlePrefix + pageTitle.innerHTML;
     pageTitleH1.innerHTML = pageTitle.innerHTML;
@@ -55,22 +55,22 @@ const ocelotCallback = () => {
         if(navigator.userAgent.match(/iPhone/g)) offset += 95;
 
         header.className = 'in';
-        header.style.marginTop = "calc(100vh - " + offset + "px)";
+        header.style.marginTop = 'calc(100vh - ' + offset + 'px)';
 
         let scrollPoint = document.querySelector('#total').clientHeight / 4;
 
-        if (window.location.pathname === "/") {
+        if (window.location.pathname === '/') {
 
         } else if (document.querySelector('#total').scrollTop <= scrollPoint) {
             //scrollPage(500, scrollPoint);
-            document.querySelector('.drop').className = "drop in";
+            document.querySelector('.drop').className = 'drop in';
         }
     };
 
     if(window.innerWidth < 480) {
-        fileName = "mobile/" + fileName;
+        fileName = 'mobile/' + fileName;
     }
-    featuredImg.setAttribute("src", "/assets/" + fileName + ".png");
+    featuredImg.setAttribute('src', '/assets/' + fileName + '.png');
 };
 
 ocelot.prePopCallback = () => {
@@ -87,15 +87,15 @@ ocelot.all({
 
 window.onload = () => {
     ocelotCallback();
-    if(typeof ocelot.events[window.location.pathname] !== "undefined") ocelot.events[window.location.pathname]();
+    if(typeof ocelot.events[window.location.pathname] !== 'undefined') ocelot.events[window.location.pathname]();
 };
 
 document.querySelector('#total').onscroll = () => {
     let scrollPoint = document.querySelector('#total').clientHeight / 4;
     if(document.querySelector('#total').scrollTop <= scrollPoint + 10) {
-        document.querySelector('.drop').className = "drop in";
+        document.querySelector('.drop').className = 'drop in';
     } else {
-        document.querySelector('.drop').className = "drop";
+        document.querySelector('.drop').className = 'drop';
     }
 };
 
@@ -113,10 +113,10 @@ window.onresize = () => {
     if(fileName === '') fileName = 'homepage';
 
     if(window.innerWidth < 480) {
-        fileName = "mobile/" + fileName;
+        fileName = 'mobile/' + fileName;
     }
 
-    document.querySelector('#featured').setAttribute("src", "/assets/" + fileName + ".png");
+    document.querySelector('#featured').setAttribute('src', '/assets/' + fileName + '.png');
 };
 
 const scrollPage = (scrollDuration, stopPoint = false) => {
