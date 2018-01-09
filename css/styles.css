@@ -542,4 +542,21 @@ body[class^="awards"] #container {
 .awards-2012 h1 {
   font-family: 'Chiller', 'Marker Felt', sans-serif; }
 
+/*
+*
+*	declantyson/2017/travel
+*	Declan Tyson
+*	v0.2.0
+*	09/01/2018
+*
+*/
+body[class^="travel"] h2 {
+  text-align: center;
+  padding: 20px 0; }
+body[class^="travel"] video {
+  width: 100%;
+  max-width: 720px;
+  margin: 0 auto;
+  display: block; }
+
 /*# sourceMappingURL=styles.css.map */

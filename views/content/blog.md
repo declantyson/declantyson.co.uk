@@ -1,6 +1,6 @@
-# Blog
+# This is what I have to say
 
-###### This is what I have to say
+###### Opinions and rambles about video games, films, music and tech
 
 From time to time, I like to write. I don't do it even close as often as I would like to, nor is it of any real quality, and very few people actually ever read it, but I still do it. Why? Who knows. It's a question for the ages.
 
