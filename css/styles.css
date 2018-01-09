@@ -553,6 +553,10 @@ body[class^="awards"] #container {
 body[class^="travel"] h2 {
   text-align: center;
   padding: 20px 0; }
+body[class^="travel"] #ocelot-content p {
+  max-width: 720px;
+  margin: 0 auto;
+  padding-bottom: 20px; }
 body[class^="travel"] video {
   width: 100%;
   max-width: 720px;
