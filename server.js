@@ -114,7 +114,9 @@ app.get('/portfolio', function(req,res) {
     fs.readdir('views/content/work/', (err, files) => {
        if(err) throw err;
        files.forEach((file) => {
-           let md = new MarkdownIt(),
+           let md = new MarkdownIt({
+                 html: true
+               }),
                content = fs.readFileSync(`views/content/work/${file}`, 'utf-8'),
                renderedWork = md.render(content);
 

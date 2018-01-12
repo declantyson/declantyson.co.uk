@@ -33,21 +33,45 @@ body.portfolio {
 
 	.work {
 		.item {
-			display: inline-block;
-			width: 31%;
-			margin: 10px 1%;
-			position: relative;
-			text-align: center;
-			@media screen and (max-width: 960px) {
-				width: 48%;
-			}
-			@media screen and (max-width: 640px) {
-				width: 98%;
-			}
-			img {
-				width: 100%;
-				filter: brightness(40%);
-			}
+            clear: both;
+            margin-top: 40px;
+            h2, h4 {
+                text-align: center;
+            }
+            img {
+                width: 100%;
+            }
+            .snapshot {
+                float: left;
+                text-align: center;
+                width: 31%;
+                margin: 10px 1%;
+                @media screen and (max-width: 960px) {
+                    width: 48%;
+                }
+                @media screen and (max-width: 640px) {
+                    width: 98%;
+                }
+            }
+            .info {
+                float: right;
+                width: 64%;
+                margin: 10px 1%;
+                @media screen and (max-width: 960px) {
+                    width: 48%;
+                }
+                @media screen and (max-width: 640px) {
+                    width: 98%;
+                }
+            }
+            &:nth-of-type(even) {
+                .info {
+                    float: left;
+                }
+                .snapshot {
+                    float: right;
+                }
+            }
 		}
 	}
 }

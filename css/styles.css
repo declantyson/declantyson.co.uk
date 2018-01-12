@@ -584,19 +584,36 @@ body.portfolio .drop {
 body.portfolio #container {
   min-height: 100%; }
 body.portfolio .work .item {
-  display: inline-block;
-  width: 31%;
-  margin: 10px 1%;
-  position: relative;
-  text-align: center; }
-  @media screen and (max-width: 960px) {
-    body.portfolio .work .item {
-      width: 48%; } }
-  @media screen and (max-width: 640px) {
-    body.portfolio .work .item {
-      width: 98%; } }
+  clear: both;
+  margin-top: 40px; }
+  body.portfolio .work .item h2, body.portfolio .work .item h4 {
+    text-align: center; }
   body.portfolio .work .item img {
-    width: 100%;
-    filter: brightness(40%); }
+    width: 100%; }
+  body.portfolio .work .item .snapshot {
+    float: left;
+    text-align: center;
+    width: 31%;
+    margin: 10px 1%; }
+    @media screen and (max-width: 960px) {
+      body.portfolio .work .item .snapshot {
+        width: 48%; } }
+    @media screen and (max-width: 640px) {
+      body.portfolio .work .item .snapshot {
+        width: 98%; } }
+  body.portfolio .work .item .info {
+    float: right;
+    width: 64%;
+    margin: 10px 1%; }
+    @media screen and (max-width: 960px) {
+      body.portfolio .work .item .info {
+        width: 48%; } }
+    @media screen and (max-width: 640px) {
+      body.portfolio .work .item .info {
+        width: 98%; } }
+  body.portfolio .work .item:nth-of-type(even) .info {
+    float: left; }
+  body.portfolio .work .item:nth-of-type(even) .snapshot {
+    float: right; }
 
 /*# sourceMappingURL=styles.css.map */
