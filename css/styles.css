@@ -563,4 +563,40 @@ body[class^="travel"] video {
   margin: 0 auto;
   display: block; }
 
+/*
+*
+*	declantyson/2017/portfolio
+*	Declan Tyson
+*	v0.2.1
+*	12/01/2017
+*
+*/
+body.portfolio #fancy-loading-transition {
+  display: none; }
+body.portfolio .navigation {
+  border-color: #333; }
+body.portfolio header {
+  margin: 0 !important; }
+  body.portfolio header h1, body.portfolio header p {
+    display: none; }
+body.portfolio .drop {
+  display: none; }
+body.portfolio #container {
+  min-height: 100%; }
+body.portfolio .work .item {
+  display: inline-block;
+  width: 31%;
+  margin: 10px 1%;
+  position: relative;
+  text-align: center; }
+  @media screen and (max-width: 960px) {
+    body.portfolio .work .item {
+      width: 48%; } }
+  @media screen and (max-width: 640px) {
+    body.portfolio .work .item {
+      width: 98%; } }
+  body.portfolio .work .item img {
+    width: 100%;
+    filter: brightness(40%); }
+
 /*# sourceMappingURL=styles.css.map */

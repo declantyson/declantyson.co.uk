@@ -108,6 +108,27 @@ app.get('/blog', function(req,res) {
     });
 });
 
+app.get('/portfolio', function(req,res) {
+    let work = [];
+
+    fs.readdir('views/content/work/', (err, files) => {
+       if(err) throw err;
+       files.forEach((file) => {
+           let md = new MarkdownIt(),
+               content = fs.readFileSync(`views/content/work/${file}`, 'utf-8'),
+               renderedWork = md.render(content);
+
+           work.push(renderedWork);
+       });
+
+        res.render('portfolio', {
+            'package': package,
+            'scripts': getScripts(),
+            'work' : work
+        });
+    });
+});
+
 
 app.get('/blogalongabond/:slug', function(req,res) {
     let md = new MarkdownIt(),
