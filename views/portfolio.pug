@@ -22,5 +22,12 @@ html
 							each item in work
 								.item!= item
 
+						.clear
+
+						include:markdown-it content/playground.md
+						.playground
+							each item in playground
+								.item!= item
+
 			each script in scripts
 				script(src=script)

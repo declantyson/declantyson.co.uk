@@ -2,8 +2,8 @@
  *
  *  declantyson/2017
  *  Declan Tyson
- *  v0.2.0
- *  25/09/2017
+ *  v0.2.1
+ *  12/01/2018
  *
  */
 
@@ -109,7 +109,8 @@ app.get('/blog', function(req,res) {
 });
 
 app.get('/portfolio', function(req,res) {
-    let work = [];
+    let work = [],
+        playground = [];
 
     fs.readdir('views/content/work/', (err, files) => {
        if(err) throw err;
@@ -123,10 +124,24 @@ app.get('/portfolio', function(req,res) {
            work.push(renderedWork);
        });
 
-        res.render('portfolio', {
-            'package': package,
-            'scripts': getScripts(),
-            'work' : work
+       fs.readdir('views/content/playground/', (err, files) => {
+           if(err) throw err;
+           files.forEach((file) => {
+               let md = new MarkdownIt({
+                     html: true
+                   }),
+                   content = fs.readFileSync(`views/content/playground/${file}`, 'utf-8'),
+                   renderedPlayground = md.render(content);
+
+               playground.push(renderedPlayground);
+           });
+
+            res.render('portfolio', {
+                'package': package,
+                'scripts': getScripts(),
+                'work' : work,
+                'playground' : playground
+            });
         });
     });
 });
