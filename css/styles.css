@@ -563,4 +563,72 @@ body[class^="travel"] video {
   margin: 0 auto;
   display: block; }
 
+/*
+*
+*	declantyson/2017/portfolio
+*	Declan Tyson
+*	v0.2.1
+*	12/01/2018
+*
+*/
+body.portfolio #fancy-loading-transition {
+  display: none; }
+body.portfolio .navigation {
+  border-color: #333; }
+body.portfolio header {
+  margin: 0 !important; }
+  body.portfolio header h1, body.portfolio header p {
+    display: none; }
+body.portfolio .drop {
+  display: none; }
+body.portfolio #container {
+  min-height: 100%; }
+body.portfolio .work .item {
+  clear: both;
+  margin-top: 40px; }
+  body.portfolio .work .item h2, body.portfolio .work .item h4 {
+    text-align: center; }
+  body.portfolio .work .item .snapshot {
+    float: left;
+    text-align: center;
+    width: 31%;
+    margin: 10px 1%; }
+    @media screen and (max-width: 960px) {
+      body.portfolio .work .item .snapshot {
+        width: 48%; } }
+    @media screen and (max-width: 640px) {
+      body.portfolio .work .item .snapshot {
+        width: 98%; } }
+    body.portfolio .work .item .snapshot img {
+      width: 100%; }
+  body.portfolio .work .item .info {
+    float: right;
+    width: 64%;
+    margin: 10px 1%; }
+    @media screen and (max-width: 960px) {
+      body.portfolio .work .item .info {
+        width: 48%; } }
+    @media screen and (max-width: 640px) {
+      body.portfolio .work .item .info {
+        width: 98%; } }
+  body.portfolio .work .item:nth-of-type(even) .info {
+    float: left; }
+  body.portfolio .work .item:nth-of-type(even) .snapshot {
+    float: right; }
+body.portfolio .playground .item {
+  vertical-align: top;
+  display: inline-block;
+  width: 31%;
+  margin: 10px 1%; }
+  @media screen and (max-width: 960px) {
+    body.portfolio .playground .item {
+      width: 48%; } }
+  @media screen and (max-width: 640px) {
+    body.portfolio .playground .item {
+      width: 98%; } }
+  body.portfolio .playground .item h2 {
+    text-align: center; }
+  body.portfolio .playground .item img {
+    width: 100%; }
+
 /*# sourceMappingURL=styles.css.map */
