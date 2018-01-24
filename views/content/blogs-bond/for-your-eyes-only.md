@@ -1,41 +1,42 @@
-# Blogalongabond: A View To A Kill
+# Blogalongabond: For Your Eyes Only
 
-###### Another eyebrow-waggling averageathon
+###### For Your Eyes Only is so forgettable I've already forgotten what I'm talking about
 
-#### 22nd February 2012
+#### 2nd December 2011
 
 ### A little bit of background
 
-To be honest, I'd say at this point the series that I love so much has - despite what Rita Coolidge might have you believe - hit an all-time low. Roger Moore should have stopped three films ago, and yet Broccoli keeps on bashing out film after average film with ol' Rodge in the vain hope that he becomes a suitable 007. Thankfully though, this is the last time we see him (and, as it turns out, we don't even see him that much).
+So it's 1981. Roger Moore is 53, and he looks it. So to say farewell to 007, he's going to do one more film... wait, what? THREE!? Jesus Christ... right, I suppose we'd better get on with this.
 
-The 1980s is now well and truly underway in all its tacky glory and the world is obsessed with computers and microchips. As usual, Bond is up to date on all of the latest trends and is even credited with inventing one - snowboarding took off in a big, big way after Moore<sup>('s stunt double)</sup> took to the slopes in A View To A Kill.
+Well so far, we've had a good film, then a dumb film, then a good film, then a dumb film with Roger Moore. Any patternologist would be able to tell you what comes next, right? Well, unfortunately, they'd be wrong.
 
 ### So, is it any good?
 
-Duran Duran! Christopher Walken! Grace Jones! Computers! 1980s culture! This should be the best Bond yet! Of course, though, it isn't, because Roger Moore's in it. A View To A Kill is mostly another eyebrow-waggling averageathon, but it doesn't matter, because next time we have Timothy Dalton.
+I was looking forward to re-watching For Your Eyes Only, because I simply didn't remember it. It would be like watching a new James Bond film all over again. This isn't because I'd watched it any less than all of the other films, but simply because it's so, so forgettable.
+
+In truth it's not a bad film, it's fairly entertaining, but it's not as good as Live And Let Die or The Spy Who Loved Me, as Roger Moore can't help but put all of his crap one-liners all over it.
 
 ### What’s the best bit?
 
-Both May Day and Zorin are fantastic villains, and although many critics deemed Walken's assassination of his minions with a machine gun unnecessary as the film was already dark enough, I think it showed just how batshit insane he is. Moore said "It wasn't what Bond is all about" but he just thinks Bond is about shagging women 35 years too young for him so let's ignore his opinion in this case.
+Right at the beginning, Roger Moore actually shows a little bit of emotion and his dead wife is actually referred to! I know, shock horror. It's only a brief moment of decent storytelling though before Blofeld - absent for four films prior to this - suddenly comes back with the ability to control a helicopter remotely. Thankfully, Bond drops him down a chimney before they can mess up his character any more - [we'll need to wait until 2015 for that!](/blogalongabond/spectre)
 
-In fact, the only person in the film more dangerously insane than Zorin is Grace Jones, who is absolutely terrifying at the best of times but even more so when you give her a mental character to play. Even her final moments as she turns heroic are laced with psychosis.
+One of the most genuinely funny moments of the series happens in this film, when a group of henchmen attempting to chase Bond try to smash his beautiful Lotus in, taking no notice of the 'Burglary Protected' sign in the window. The car's protection system is in fact an explosion.
 
-The only slight flaw with Zorin's character is that apparently he can speak 6 languages without an accent when Walken can't speak fucking English without an accent.
+I also like Columbo as a sidekick. He's charismatic, funny and has a silly accent.
 
 ### And the worst bit?
 
-The stunts are amazing, and some of the best seen in the series, but they'd be a hell of a lot better if you could actually believe it was 007 doing them. There's not even an attempt to hide the fact that Moore is far too old to perform anything so physically taxing, and it almost seems that they are deliberately pointing out that he's not in the film that much.
+I'd like to take a minute here to salute the performance of Bernard Lee in all of the Bond films up until this point, for his authoritative and no-nonsense displayal as the head of MI6. His performances, along with Desmond Llewellyn and Lois Maxwell's, painted a brilliant picture of how the British Secret Service worked, and his untimely death was a severe knock to this film as they drafted in James Villiers as the chief of staff to replace him.
 
-Additionally, the scene in which they say the film's title - nonsensical enough as it is - well, makes no sense.
+With the excuse for M's absence being 'on leave' (I'm thankful they mentioned that he wasn't involved) Bond's briefing scenes are now given by an irritating fool and the Minister for Defence. Whilst Geoffery Keen, as normal, does a good job as the Minister (a similar character to M in many ways), in that he's bossy and mean and yet somehow not dislikable, Villiers is just a twat. His stupid accent, his pathetic attitude - it's all awful. Thank god this is only for one film.
 
-_May Day: "What a view." Zorin: "To a Kill..."_
-
-....what?
-
-One final point to bemoan, Tanya Roberts' performance as Stacey Sutton only detriments the film further, as her character cannot decide if she's a brilliantly intelligent heiress to a ridiculously profitable company or a complete moron who simply screams the whole time without any redeeming features to motivate the struggle of watching her performance. Although for 120 minutes of the film, Roger Moore FINALLY realised that these girls are too young for him. WELL DONE YOU, RODGE. (Of course he's in the shower necking with her in the closing sequence).
+And Margaret Thatcher shouldn't have been anywhere near this film and if I carry on thinking about it I don't know what I'm going to smash so I'll stop there.
 
 ### What about the theme tune?
 
-Duran Duran are just undeniably awesome. God knows what the lyrics mean but the song is awesome and that tacky neon title sequence that backs it is beyond cool. The 80s really were an epic decade. John Barry, as per usual, does excellently adapting this into a proper soundtrack and not a disco.
+Many people rant and rave about how Blondie should have been given the theme tune, but I actually much prefer Sheena Easton's romantic effort. Although I'm not really a fan of the whole "I'm in the title sequence" thing. I prefer the scantily clad women dancing around on their own without a stereotypical 80's singer in the background.
 
-So we're finally rid of Roger Moore. Hooray! Now we get Timothy Dalton! HOORAY!
+The rest of the soundtrack is done by Bill Conti, and whilst it's not as good as John Barry's efforts, it's got a pretty good, upbeat, cheesy 80's feel to it. Not bad.
+
+So now we've forgotten the name of that greek man, his friends and uh... someone else that appeared in For Your Eyes Only, let's look forward to a woman with eight vaginas!
+

@@ -1,44 +1,41 @@
-# Blogalongabond: Casino Royale
+# Blogalongabond: A View To A Kill
 
-###### “Get rid of absolutely everyone,” they said, “or at least anyone who doesn’t have a damehood.”
+###### Another eyebrow-waggling averageathon
 
-#### 14th September 2012
+#### 22nd February 2012
 
 ### A little bit of background
 
-In the wake of Die Another Day’s awfulness, somebody - not sure who - decided enough was enough and it was time to break shit down and start again. “Get rid of absolutely everyone,” they said, “or at least anyone who doesn’t have a damehood.” (Looked it up, damehood is actually the correct term). So everyone was gone.
+To be honest, I'd say at this point the series that I love so much has - despite what Rita Coolidge might have you believe - hit an all-time low. Roger Moore should have stopped three films ago, and yet Broccoli keeps on bashing out film after average film with ol' Rodge in the vain hope that he becomes a suitable 007. Thankfully though, this is the last time we see him (and, as it turns out, we don't even see him that much).
 
-To replace Brosnan as Bond, a relative - although not complete - unknown was drafted in, Daniel Craig. Although Craig had been around for a long time, he had been in very few major hits (the most obvious exception being Layer Cake). Not everyone was happy about this.
-
-![Accurate representation of The Sun's furore over Daniel Craig's hair colour](/assets/casino-sun.jpg)
-
-Fortunately for the whole human race, it wozn’t the Sun wot won it this time and the tabloids quickly shut up when they saw how much of a badass Daniel Craig is.
+The 1980s is now well and truly underway in all its tacky glory and the world is obsessed with computers and microchips. As usual, Bond is up to date on all of the latest trends and is even credited with inventing one - snowboarding took off in a big, big way after Moore<sup>('s stunt double)</sup> took to the slopes in A View To A Kill.
 
 ### So, is it any good?
 
-This month’s Blogalongabond is a bit different for me, because I actually finished reading Casino Royale just before I re-watched it. What struck me most is how well the film actually sticks to the book’s original plot without letting it become too dated. All the key plot elements are there, but just done up for the 21st century: rather than Baccarat, a game that no-one understands and not many people really play anymore, is swapped for the much more popular Texas Hold ‘em; the assassination attempt on Bond turns from a cane-gun (something much more akin to the Connery era) to poison; Le Chiffre loses all his employer’s money on the stock market, not on brothels.
-
-The campness is gone, the testosterone is back, and it’s the best Bond since Goldeneye.
+Duran Duran! Christopher Walken! Grace Jones! Computers! 1980s culture! This should be the best Bond yet! Of course, though, it isn't, because Roger Moore's in it. A View To A Kill is mostly another eyebrow-waggling averageathon, but it doesn't matter, because next time we have Timothy Dalton.
 
 ### What’s the best bit?
 
-The opening sequence is symbolic of the change of direction in the series: gone are the naked women, in comes an incredibly well-thought out fight sequence between men made up of card symbols. I could quite easily watch a whole film just like this.
+Both May Day and Zorin are fantastic villains, and although many critics deemed Walken's assassination of his minions with a machine gun unnecessary as the film was already dark enough, I think it showed just how batshit insane he is. Moore said "It wasn't what Bond is all about" but he just thinks Bond is about shagging women 35 years too young for him so let's ignore his opinion in this case.
 
-Craig’s effortless machismo and genuine acting ability outshines his blonde hair and allows him to become Second Best Bond™. Like Dalton, he is an actor born on the stage, and, like Dalton, his theatrical style comes across in his dedication to stick to Fleming’s Bond. He’s not the infallible hero we saw in Brosnan: when he performs stunts he messes up (several times in the parkour sequence), but he is intelligent, arrogant, calm and collected, and most of all - very British, and very cold. He may not have the Bond appearance, but he’s got the personality down to a T.
+In fact, the only person in the film more dangerously insane than Zorin is Grace Jones, who is absolutely terrifying at the best of times but even more so when you give her a mental character to play. Even her final moments as she turns heroic are laced with psychosis.
 
-The other performances, too, are just as good. Felix Leiter dispels the whole “multiple James Bond” theory by being black and indeed determining that this is a complete reboot rather than a continuation (obviously, sheesh). Then of course, there’s Ms Dench - there’s nothing to say about her that hasn’t been said a thousand times across the Internet. And finally, there’s the magnificent Eva Green, who changes Vesper’s role into a true independent woman, who cannot defend herself in a fistfight, but will almost always win in a war of words. It’s the perfect blend of being feisty without turning into an irritating feminist caricature, and her rapport with Craig is fantastic.
-
-But I think my favourite change from the book is Le Chiffre. In Fleming’s novel, he is just a mostly silent fat man who has a penchant for gambling. The film turns him into a typical Bondian villain - his gambling is made a lot more dramatic by his mathematical genius, and he weeps blood. He’s also a lot more charismatic. All of these traits just add to his cruelty which make the infamous torture scene seem much more evil - even if Craig does his best to lighten the mood.
+The only slight flaw with Zorin's character is that apparently he can speak 6 languages without an accent when Walken can't speak fucking English without an accent.
 
 ### And the worst bit?
 
-Understandably there’s extra scenes to pad out the film, because if it was simply based on the book it’d be all in the Casino and end within half an hour. There’s nothing wrong with the extra scenes at all, there’s just an awful lot of them, and the film becomes too long. There’s at least three points when it feels like it should end and it doesn’t, and it begins to drag.
+The stunts are amazing, and some of the best seen in the series, but they'd be a hell of a lot better if you could actually believe it was 007 doing them. There's not even an attempt to hide the fact that Moore is far too old to perform anything so physically taxing, and it almost seems that they are deliberately pointing out that he's not in the film that much.
 
-And the product placement does get a little annoying. The return of the Aston Martin is a welcome one, but the Sony and Virgin logos get a little tiresome. And of course there’s the little... incident... with Richard Branson.
+Additionally, the scene in which they say the film's title - nonsensical enough as it is - well, makes no sense.
+
+_May Day: "What a view." Zorin: "To a Kill..."_
+
+....what?
+
+One final point to bemoan, Tanya Roberts' performance as Stacey Sutton only detriments the film further, as her character cannot decide if she's a brilliantly intelligent heiress to a ridiculously profitable company or a complete moron who simply screams the whole time without any redeeming features to motivate the struggle of watching her performance. Although for 120 minutes of the film, Roger Moore FINALLY realised that these girls are too young for him. WELL DONE YOU, RODGE. (Of course he's in the shower necking with her in the closing sequence).
 
 ### What about the theme tune?
 
-Vastly, vastly different to anything before it, Chris Cornell’s powerful vocals manage to ring out a brilliant rock anthem. It compliments the title sequence perfectly, and again, updates the franchise.<hr>
-So Daniel Craig dragged Bond kicking and screaming into 2006 away from almost everything before it. Can the follow-up live up to the expectations set by his debut? 
+Duran Duran are just undeniably awesome. God knows what the lyrics mean but the song is awesome and that tacky neon title sequence that backs it is beyond cool. The 80s really were an epic decade. John Barry, as per usual, does excellently adapting this into a proper soundtrack and not a disco.
 
-(Spoiler: No.)
+So we're finally rid of Roger Moore. Hooray! Now we get Timothy Dalton! HOORAY!
