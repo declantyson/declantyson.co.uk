@@ -6,7 +6,7 @@
 
 ### A little bit of background
 
-Possibly because of the higher certificate, Licence to Kill seriously underperformed at the box office. Which is ridiculous. This, coupled with various legal disputes, meant that it was 6 years before the next James Bond film, and Timothy Dalton grew a bit bored, buggering off to do some Shakespeare or whatever.
+Possibly because of the higher certificate, [Licence to Kill](/blogalongabond/licence-to-kill) seriously underperformed at the box office. Which is ridiculous. This, coupled with various legal disputes, meant that it was 6 years before the next James Bond film, and Timothy Dalton grew a bit bored, buggering off to do some Shakespeare or whatever.
 
 He was replaced by someone previously shortlisted for the role, some Irish guy who played a detective or something in some kind of TV series, a one Mr. Pierce Brosnan. Brosnan is very much a middle-of-the-road Bond in my views. Whilst all of the other Bonds excel in one particular area, but perhaps lack in others (Connery: Suave, Lazenby: Physicality, Moore: Wit (this one's debatable), and Dalton: Seriousness) Brosnan displays all of these attributes, if not to the same level of expertise. This is definitely a good thing though, as we can sit back and watch the film without worrying that when there's an opportunity for a one-liner, it won't be missed, but at the same time, when Bond needs to be pissed off, he can be pissed off. He can believably hold his own in a fight, but unlike Lazenby, his acting talent isn't worse than a dead pheasant.
 
@@ -34,4 +34,6 @@ There's only one flaw with this film. What if Timothy Dalton had stuck it out an
 
 Tina Turner bashes out another Bond classic, up there with my favourites - it's not quite as much to my tastes as some of the other recent entries, but there's a catchiness about it that just keeps it in your head, and coming out of your mouth after drinking a little too much Vodka from Ouromov's hip flask (hey, when in Russia, do as the Soviets do!).
 
-So that's the best film ever. Everything else in your life that follows will be a disappointment. Sorry about that.
+---
+
+So that's the best film ever. Everything else in your life that follows will be a disappointment, starting with [Tomorrow Never Dies](/blogalongabond/tomorrow-never-dies).

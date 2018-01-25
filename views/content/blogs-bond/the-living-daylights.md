@@ -8,13 +8,13 @@
 
 So we finally wave goodbye to Roger Moore, and we bring in someone new. Timothy Dalton is, for a number of reasons, the best actor to play Bond to date. His darker, more aggressive Bond is closer to Fleming's original incarnation. His classical acting training allows him to display more emotion than just the occasional eyebrow wiggle.
 
-He wasn't nearly 60 at the time of filming, so he does most of his own stunts and the girls are closer to his own age. He brings a much harder edge to Bond that was missing in the Connery and Moore eras - 'Stuff my orders', 'if he fires me I'll thank him for it', and many more anti-authority quotes to come in Licence to Kill. And yet, he retains all of the good aspects of the other Bonds - he's physical like Lazenby, he's suave like Connery, and he's entertaining like Moore.
+He wasn't nearly 60 at the time of filming, so he does most of his own stunts and the girls are closer to his own age. He brings a much harder edge to Bond that was missing in the Connery and Moore eras - 'Stuff my orders', 'if he fires me I'll thank him for it', and many more anti-authority quotes to come. And yet, he retains all of the good aspects of the other Bonds - he's physical like Lazenby, he's suave like Connery, and he's entertaining like Moore.
 
 All in all, for me, Timothy Dalton IS James Bond.
 
 ### So, is it any good?
 
-If The Living Daylights had Roger in it still (ignoring the fact that he'd be another two years older) it'd probably be pretty average, but what Dalton brings to the table is so much Moore _(I'm so very sorry)_. It's still pretty cheesy in a lot of places, and the story, whilst vastly superior to that of the last four, doesn't quite hit the dizzying heights of From Russia With Love or Goldfinger.
+If The Living Daylights had Roger in it still (ignoring the fact that he'd be another two years older) it'd probably be pretty average, but what Dalton brings to the table is so much Moore _(I'm so very sorry)_. It's still pretty cheesy in a lot of places, and the story, whilst vastly superior to that of the last four, doesn't quite hit the dizzying heights of [From Russia With Love](/blogalongabond/from-russia-with-love) or [Goldfinger](/blogalongabond/goldfinger).
 
 Having said that, John Glen's direction is so much better this time around - the bits that are supposed to be funny actually ARE funny. The best example of this is right at the beginning, when Bond is shot in a training exercise in the pre-title sequence, only to ignore it and carry on running after an evil assailant. The guard who shot him shouts after him "'Ere, 'old on, you're dead!" This is a proper example of comic relief: when comedy is provided in these more action-packed, serious situations, as opposed to a vagina pun with a raised brow.
 
@@ -32,7 +32,7 @@ I chuckled when the Minister of Defence was upset that MI6 was "the laughing sto
 
 Necros is possibly my favourite henchman outside of Red Grant, and they're both very similar - massive, blonde, hench, able to perfectly recreate any accent, and always intimidating. His fight scene with the unnamed MI6 guard is one of the best in the series, and the sound of The Pretenders will forever keep me on my toes, else I be strangled with headphones and blown up with explosive milk bottles (just the right side of a silly but cool gadget).
 
-And whilst we're on the subject of silly but cool, the cello-sledging sequence is just that. It's a brilliant piece of cinema, packed with both adrenaline and entertainment, and it follows from one of, if not the very, [best driving sequences](http://www.i-flicks.net/blogalongabond/3190-blogalongabond-the-living-daylights-1987) in not only the Bond series, but any film ever.
+And whilst we're on the subject of silly but cool, the cello-sledging sequence is just that. It's a brilliant piece of cinema, packed with both adrenaline and entertainment, and it follows from one of, if not the very, best driving sequences in not only the Bond series, but any film ever.
 
 The videogame _Uncharted 3: Drake's Deception_ pretty shamelessly rips off the latter half of this film - and for good reason - because it's awesome. The group of men on horseback that rescue Drake is obviously the Mujahideen, and when Drake hangs out the back of a Cargo plane by a massive rope net - maybe it was just a tiny bit influenced by The Living Daylights and its brilliant climax?
 
@@ -48,4 +48,6 @@ Also, the Trans-Siberian pipeline that transports people from Slovakia to Austri
 
 I love 80's music. Really I do. But I think A-Ha aren't a great example of it. _Take On Me_ is great, as is _The Sun Always Shines On TV_, but other than that, they're just not that good. And neither is the theme tune to The Living Daylights, and it's a shame, because it has so much potential. It's very well mixed throughout the film by the superb John Barry Orchestra, though, and although it's a shame to see Barry bow out of the Bond films, he does it in fine fashion - even making a cameo appearance as a conductor in the film's final scene.
 
-So we're halfway through Timmy D's reign as 007. So far it's been brilliant. Licence to Kill next month.
+---
+
+So we're halfway through Timmy D's reign as 007. So far it's been brilliant. [Licence to Kill](/blogalongabond/licence-to-kill) next month.

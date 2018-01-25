@@ -18,7 +18,7 @@ A bad casting decision, however, is Teri Hatcher. Bond girls aren’t supposed t
 
 ### What’s the best bit?
 
-The opening sequence is again fantastic. It’s a fantastic set piece from start to finish (although when Bond gave up smoking I’m not sure). Judi Dench again kicks ass in putting stuffy old military generals in their place. In fact, she excels throughout the entire film in a much more developed role than in Goldeneye. There are more explosions in this one scene than there are in many of Michael Bay’s most explosive films. It’s just a shame it all gets a little ridiculous when 007 starts flying the plane with his knees. In fact, Brosnan’s first three lines are all Moore-like quips, adequately setting the (low) tone for the rest of the film.
+The opening sequence is again fantastic. It’s a fantastic set piece from start to finish (although when Bond gave up smoking I’m not sure). Judi Dench again kicks ass in putting stuffy old military generals in their place. In fact, she excels throughout the entire film in a much more developed role than in [GoldenEye](/blogalongabond/goldeneye). There are more explosions in this one scene than there are in many of Michael Bay’s most explosive films. It’s just a shame it all gets a little ridiculous when 007 starts flying the plane with his knees. In fact, Brosnan’s first three lines are all Moore-like quips, adequately setting the (low) tone for the rest of the film.
 
 Desmond Llewellyn yet again proves he is the only man on the planet cooler than James Bond. The gadgets are a little over-the-top, but I think it’s one of the redeemable features of this film, as their ridiculousness isn’t quite as bad as other ones, as we will see later in Die Another Day.
 
@@ -32,8 +32,10 @@ All of these, I could forgive, if it wasn’t for one massive plot flaw. When Ca
 
 ### What about the theme tune?
 
-It’s a bit warbly, and a sounds a bit like Sheryl Crow was being held at gunpoint whilst she was singing it. It is accompanied by a fantastic, if a little odd, image sequence, which has an X-Ray theme, completely irrelevant to the rest of the film. Oh, and there’s some Diamonds thrown in there for good measure. Because to be honest, this film is on a similar level to Diamonds Are Forever.
+It’s a bit warbly, and a sounds a bit like Sheryl Crow was being held at gunpoint whilst she was singing it. It is accompanied by a fantastic, if a little odd, image sequence, which has an X-Ray theme, completely irrelevant to the rest of the film. Oh, and there’s some Diamonds thrown in there for good measure. Because to be honest, this film is on a similar level to [Diamonds Are Forever](/blogalongabond/diamonds-are-forever).
 
-The score as a whole, though, is excellent, and the techno-infused beats are worked better than they were in Goldeneye.
+The score as a whole, though, is excellent, and the techno-infused beats are worked better than they were in GoldenEye.
 
-Well, so far in Brosnan’s era we’ve had good-bad. Hint for the next two films: this is a pattern.
+---
+
+Well, so far in Brosnan’s era we’ve had good-bad. Hint for the next two films: this is a pattern. [The World Is Not Enough](/blogalongabond/the-world-is-not-enough) is up next.

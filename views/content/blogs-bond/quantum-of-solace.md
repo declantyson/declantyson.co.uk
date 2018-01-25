@@ -6,7 +6,7 @@
 
 ### A little bit of background
 
-The reboot of the series with Casino Royale was a massive success. The naysayers were suddenly praising Daniel Craig and James Bond was seen as relevant in the world of film again - a true competitor for the likes of Jason Bourne. And yet, when all seemed rosy in the world of EON productions, a massive shock hit the motion picture industry that would change film and television for the whole of 2008 - the Writer's Strike. As a result, many shows and films were canceled or postponed, and the ones that were completed were widely derided by critics and fans alike - it was almost directly responsible for the end of the popularity of _Heroes_, so it was a very precarious time for any studio to release a film.
+The reboot of the series with [Casino Royale](/blogalongabond/casino-royale) was a massive success. The naysayers were suddenly praising Daniel Craig and James Bond was seen as relevant in the world of film again - a true competitor for the likes of Jason Bourne. And yet, when all seemed rosy in the world of EON productions, a massive shock hit the motion picture industry that would change film and television for the whole of 2008 - the Writer's Strike. As a result, many shows and films were canceled or postponed, and the ones that were completed were widely derided by critics and fans alike - it was almost directly responsible for the end of the popularity of _Heroes_, so it was a very precarious time for any studio to release a film.
 
 Paul Haggis rushed to finish the script for Quantum of Solace two hours before the strike began.
 
@@ -31,12 +31,11 @@ There's two ways you can use a camera in filmmaking: on a support of some kind t
 
 Shaky cam is also prevelant in what is a potentially good pre-title sequence; but after a confusing car chase it's abruptly cut short by the solitary piece of dialog in the scene. There's no story development or introduction, and if you didn't watch Casino Royale you'd be completely lost. And maybe it's just my DVD, but what's with the 2-3 second freezeframe before the titles themselves start? Is it meant to look good? Because it doesn't. Another potentially good action sequence ruined by this shoddy camerawork is the fight in the Bregenz Opera House: the sound is drowned out except for the Opera in the background and it's very exciting and dramatic, but because you can't tell what's going on you just presume Bond's going to win and switch off until the fight's over.
 
-When you work in design, and more specifically software design, you notice the computer software in films. You analyse them and their realism, how it was developed and its usability (if you want to stop reading, I can't say I blame you at this point). Whilst QoS isn't as ridiculous as some, it seems that they've spent more time developing this elaborate operating system than making the actual bloody film. It's on screen every single time a member of MI6 is and is apparently telepathic. (While I'm on the topic of design, those fancy title cards for each location are just kind of annoying really). I also owned a Sony Ericsson C902, and it cannot do the things that they are claiming it can do.
+When you work in design, and more specifically software design, you notice the computer software in films. You think about their realism, how it was developed and its usability (if you want to stop reading, I can't say I blame you at this point). Whilst QoS isn't as ridiculous as some, it seems that they've spent more time developing this elaborate operating system than making the actual bloody film. It's on screen every single time a member of MI6 is and is apparently telepathic. (While I'm on the topic of design, those fancy title cards for each location are just kind of annoying really). I also owned a Sony Ericsson C902, and it cannot do the things that they are claiming it can do.
 
-Any character introduced that's not a recurring character from Casino Royale seems to be bad. Dominic Greene is a forgettable villain who is about as intimidating as a hamster armed with a toothpick (then again, I do want to punch him right in his smarmy face...).
+Any character introduced that's not a recurring character from Casino Royale seems to be bad. Dominic Greene is a forgettable villain who is about as intimidating as a hamster armed with a toothpick (then again, I do want to punch him right in his smarmy face).
 
 Camille's backstory - intended to be dark and mysterious - feels clichéd and uninteresting, and Gemma Arteton's Strawberry Fields(!) is essentially irrelevant only in the film for the pointless 'tribute' to Goldfinger. She's also on the receiving end of one of the film's more peculiar lines. 'I can't find the... uhh... stationery.' I don't understand - honestly, I just can't fathom - 1) Why 007 is looking for pencils 2) How Gemma Arteton interpreted that and 3) ANYTHING ABOUT THIS LINE WHATSOEVER. I know Roger Moore had some pretty piss-poor chat up lines in his day, but this takes the award.
-
 
 ### What about the theme tune?
 
@@ -44,6 +43,6 @@ Appalling, even worse than Madonna. I refuse to comment on this any longer.
 
 -----
 
-I've only been doing Blogalongabond for 9 months and I feel like I'm going to be lost without it after Skyfall! I can't imagine how the people who did it for all 23 must feel. Watching all of them in order once again has reminded me of the series highs and lows, and just why I love them so damn much. The only question that remain is... Will Skyfall deliver?
+I've only been doing Blogalongabond for 9 months and I feel like I'm going to be lost without it after Skyfall! I can't imagine how the people who did it for all 23 must feel. Watching all of them in order once again has reminded me of the series highs and lows, and just why I love them so damn much. The only question that remain is... Will [Skyfall](/blogalongabond/skyfall) deliver?
 
 Find out next month!

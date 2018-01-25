@@ -6,7 +6,7 @@
 
 ### A little bit of background
 
-So it's 1981. Roger Moore is 53, and he looks it. So to say farewell to 007, he's going to do one more film... wait, what? THREE!? Jesus Christ... right, I suppose we'd better get on with this.
+So it's 1981. Roger Moore is 53, and he looks it. So to say farewell to 007, he's going to do one more film... wait, what? _Three!?_ Jesus Christ... right, I suppose we'd better get on with this.
 
 Well so far, we've had a good film, then a dumb film, then a good film, then a dumb film with Roger Moore. Any patternologist would be able to tell you what comes next, right? Well, unfortunately, they'd be wrong.
 
@@ -14,7 +14,7 @@ Well so far, we've had a good film, then a dumb film, then a good film, then a d
 
 I was looking forward to re-watching For Your Eyes Only, because I simply didn't remember it. It would be like watching a new James Bond film all over again. This isn't because I'd watched it any less than all of the other films, but simply because it's so, so forgettable.
 
-In truth it's not a bad film, it's fairly entertaining, but it's not as good as Live And Let Die or The Spy Who Loved Me, as Roger Moore can't help but put all of his crap one-liners all over it.
+In truth it's not a bad film, it's fairly entertaining, but it's not as good as [Live And Let Die](/blogalongabond/live-and-let-die) or [The Spy Who Loved Me](/blogalongabond/the-spy-who-loved-me), as Roger Moore can't help but put all of his crap one-liners all over it.
 
 ### What’s the best bit?
 
@@ -38,5 +38,7 @@ Many people rant and rave about how Blondie should have been given the theme tun
 
 The rest of the soundtrack is done by Bill Conti, and whilst it's not as good as John Barry's efforts, it's got a pretty good, upbeat, cheesy 80's feel to it. Not bad.
 
-So now we've forgotten the name of that greek man, his friends and uh... someone else that appeared in For Your Eyes Only, let's look forward to a woman with eight vaginas!
+---
+
+So now we've forgotten the name of that greek man, his friends and uh... someone else that appeared in For Your Eyes Only, let's look forward to a woman with [eight vaginas](/blogalongabond/octopussy)!
 

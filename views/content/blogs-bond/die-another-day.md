@@ -8,7 +8,7 @@
 
 Post 11/9 (read backwards if you’re American) it could have been said that people were beginning to lose faith in the idea of an invincible, infallible hero that defeats evil whilst getting laid and pissed off his nut. However, the producers of Die Another Day didn’t get the memo.
 
-This also marked the 20th Bond film, and the 40th anniversary since Dr No. A fact which is celebrated by references to the previous 19 films. I would point them all out, but frankly I can’t be bothered.
+This also marked the 20th Bond film, and the 40th anniversary since [Dr No](/blogalongabond/dr-no). A fact which is celebrated by references to the previous 19 films. I would point them all out, but frankly I can’t be bothered.
 
 Also, cinema was crazy-obsessed with CGI.
 
@@ -16,7 +16,7 @@ Also, cinema was crazy-obsessed with CGI.
 
 It starts off promisingly - Brosnan (beginning to look a little grizzled and old) surfs (for some reason) into North Korea, nicks some diamonds and sets some stuff to blow up. There’s crazy North Korean generals, some east/west cold war hypocrisy references. Bond is discovered, stuff blows up, one of the main villains gets diamonds stuck in his face, they race some hovercraft, and then finally Bond is captured and tortured. It’s an above-average opening sequence - ignoring the horrific line “saved by the bell” it sets the tone for what should have been a highly entertaining film. And then if you mute Madonna, the opening credits are actually fairly haunting and impressive. A little too overdone on the CGI, perhaps, but it advances the plot, which is more than can be said for many other films in the series.
 
-And then the credits end and it’s all downhill from there.
+Then the credits end, and it’s all downhill from there.
 
 ### What’s the best bit?
 
@@ -72,4 +72,6 @@ And then there’s Madonna. I don’t like Madonna.
 
 Oh god, it’s just beyond awful. It reeks of an aging shit singer who has no talent desperately trying to make herself relevant in the world once again. Its poorness is almost a metaphor for the Bond series at this point, which desperately needed a kick up the arse after this shitpile.
 
-Casino Royale next month, and it’s going to be a massive step up.
+---
+
+[Casino Royale](/blogalongabond/casino-royale) next month, and it’s going to be a massive step up.

@@ -38,4 +38,6 @@ One final point to bemoan, Tanya Roberts' performance as Stacey Sutton only detr
 
 Duran Duran are just undeniably awesome. God knows what the lyrics mean but the song is awesome and that tacky neon title sequence that backs it is beyond cool. The 80s really were an epic decade. John Barry, as per usual, does excellently adapting this into a proper soundtrack and not a disco.
 
-So we're finally rid of Roger Moore. Hooray! Now we get Timothy Dalton! HOORAY!
+---
+
+So we're finally rid of Roger Moore. Hooray! Now we get Timothy Dalton! HOORAY! Next month, we watch [The Living Daylights](/blogalongabond/the-living-daylights).

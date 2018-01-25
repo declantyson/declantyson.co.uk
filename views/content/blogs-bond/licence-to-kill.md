@@ -8,11 +8,11 @@
 
 When you hear the word “bastard” in the first 5 seconds of a Bond film, you know you're in for something different.
 
-In The Living Daylights, Timothy “God” Dalton proved that he had what it takes to take Bond to the level that it needed to. It was just the right side of sinister whilst retaining all of the right elements that made it not just a film, but a Bond film. Combine this with certain key factors: the Cold War was officially over by the time of its release, and American big-budget action thrillers (notably Die Hard and Lethal Weapon) were doing the rounds at the box office, and you have the most hardcore 007 outing to date.
+In [The Living Daylights](/blogalongabond/the-living-daylights), Timothy “God” Dalton proved that he had what it takes to take Bond to the level that it needed to. It was just the right side of sinister whilst retaining all of the right elements that made it not just a film, but a Bond film. Combine this with certain key factors: the Cold War was officially over by the time of its release, and American big-budget action thrillers (notably Die Hard and Lethal Weapon) were doing the rounds at the box office, and you have the most hardcore 007 outing to date.
 
 ### So, is it any good?
 
-Absolutely fantastic. This is the film Diamonds Are Forever could have, should have been: an angry, disillusioned Bond runs riot in cold-blooded revenge with no motivation except to avenge his friend. Taking down a mass-murdering drug dealer in the process is just a convenient and fortunate side-effect.
+Absolutely fantastic. This is the film [Diamonds Are Forever](/blogalongabond/diamonds-are-forever) could have, should have been: an angry, disillusioned Bond runs riot in cold-blooded revenge with no motivation except to avenge his friend. Taking down a mass-murdering drug dealer in the process is just a convenient and fortunate side-effect.
 
 There's a bit of swearing, the fake blood budget is marked up generously, and the darker themes give it something no Bond film has been given before or since, a 15 certificate. (This will probably be rescinded to a 12 upon the Blu-ray release, it's not actually that bad by modern day standards).
 
@@ -42,6 +42,8 @@ Being serious about critiquing the film itself, though, it did lack the scope an
 
 ###  What about the theme tune?
 
-Although it doesn't stand up as well on its own as A View To A Kill, Gladys Knight's thumping 80s power ballad is a brilliant song and fits in perfectly to the more Americanised, Die-Hard film that Licence to Kill is, and when Bond and Felix return to the wedding on parachutes (like a boss), the first few triumphant bars give a sense of awesome victory. It's still a damn fine 80s tune, and has rarely been bettered since.
+Although it doesn't stand up as well on its own as [A View To A Kill](/blogalongabond/a-view-to-a-kill), Gladys Knight's thumping 80s power ballad is a brilliant song and fits in perfectly to the more Americanised, Die-Hard film that Licence to Kill is, and when Bond and Felix return to the wedding on parachutes (like a boss), the first few triumphant bars give a sense of awesome victory. It's still a damn fine 80s tune, and has rarely been bettered since.
 
-Next month it's Goldeneye. Prepare yourselves.
+---
+
+Next month it's [Goldeneye](/blogalongabond/goldeneye). Prepare yourselves.

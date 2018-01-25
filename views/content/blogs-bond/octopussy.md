@@ -6,8 +6,9 @@
 
 ### A little bit of background
 
-Having already forgotten what For Your Eyes Only was about, it's time to move on to \*insert joke about woman with eight vaginas here\*.
-In addition to Moore getting pretty old now, his co-star Maud Adams as the titular vagina lady has aged noticably since she was killed in The Man With The Golden Gun. Yes, that's right - Adams is (as far as I know) the only actress to play two different Bond girls in the series.
+Having already forgotten what [For Your Eyes Only](/blogalongabond/for-your-eyes-only) was about, it's time to move on to \*insert joke about woman with eight vaginas here\*.
+
+In addition to Moore getting pretty old now, his co-star Maud Adams as the titular vagina lady has aged noticably since she was killed in [The Man With The Golden Gun](/blogalongabond/the-man-with-the-golden-gun). Yes, that's right - Adams is (as far as I know) the only actress to play two different Bond girls in the series.
 
 ### So, is it any good?
 
@@ -23,7 +24,7 @@ The jungle chase scene - Tarzan yell aside - is frantic and brilliant as 007 has
 
 ### And the worst bit?
 
-The 'comic relief' is fuckwittedly dire, and it doesn't fit in to a film that has a somewhat darker tone than most others in the series. But the fact remains that even if the film was as silly as Moonraker or The Man With The Golden Gun, there is no place in James Bond for 007 to be dressing up as a gorilla or a clown. Or do a Tarzan yell.
+The 'comic relief' is fuckwittedly dire, and it doesn't fit in to a film that has a somewhat darker tone than most others in the series. But the fact remains that even if the film was as silly as [Moonraker](/blogalongabond/moonraker) or The Man With The Golden Gun, there is no place in James Bond for 007 to be dressing up as a gorilla or a clown. Or do a Tarzan yell.
 
 And where would we be without some unfounded racism - upon handing his Indian sidekick a wad of cash, he says "That should keep you in curries". It's not even very funny.
 
@@ -31,4 +32,6 @@ And where would we be without some unfounded racism - upon handing his Indian si
 
 Rita Coolidge sings _All Time High_, which isn't really to my taste at all. It's slow and boring. However John Barry returns to the soundtrack and as a whole it's better than For Your Eyes Only.
 
-As Ol' Rodge slows from a canter to a trot, we approach the end of his tenure. Next month, after what seems like a lifetime, is the last time we will see Moore don the tuxedo. Thank Christ.
+---
+
+As Ol' Rodge slows from a canter to a trot, we approach the end of his tenure. Next month, after what seems like a lifetime, is the last time we will see Moore don the tuxedo, in [A View To A Kill](/blogalongabond/a-view-to-a-kill). Thank Christ.

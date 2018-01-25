@@ -6,14 +6,13 @@
 
 ### A little bit of background
 
-
 There's not a lot of background to talk about except for the fact that Brozzers has well and truly brought Bond back to its dizzying commercial success with his engimatic blend of 90s cheese and nonchalant coldness.
 
 However, I would like to dedicate this Blogalongabond to Desmond Llewellyn, AKA Major Boothroyd AKA Q, whose poignant departure from the series is made all the more emotional by the fact that he sadly passed away in a car crash shortly after filming. The man was a James Bond legend, consistent in every film he appeared in and essentially 007's father figure. He leaves on a brilliant bit of scripting as well - powerful, evocative, showing Bond's dependence and vulnerability. RIP Des.
 
 ### So, is it any good?
 
-Like Tomorrow Never Dies, TWINE is an entertaining film but with silly flaws that detriment the experience as a whole. However, unlike TND, the ratio of good:bad is weighted towards the positive side. It's a bit darker, the villains are better, and the actors seem much less disinterested and in tune with the script.
+Like [Tomorrow Never Dies](/blogalongabond/tomorrow-never-dies), TWINE is an entertaining film but with silly flaws that detriment the experience as a whole. However, unlike TND, the ratio of good:bad is weighted towards the positive side. It's a bit darker, the villains are better, and the actors seem much less disinterested and in tune with the script.
 
 It does have some of the same silliness, a questionable script (with some fantastic one-liners but some horrific ones too) and the unnecessary celebrity cameos (Denise Richards should never be ANYWHERE near this series), but it also has some of the series' best moments.
 
@@ -41,4 +40,6 @@ And then there's the worst offender. Goldie (character name 'Bullion', trying to
 
 Forgettable. In all honesty, it's pretty dire. Garbage may the name of the artist but it's a suitably apt description. Although because I was born on the correct side of the Atlantic, perhaps I should refer to it as 'rubbish'. Although 'shit' would be better still.
 
-Well, that's the peak of Brozzers finished. Are you ready for the pit?
+---
+
+Well, that's the peak of Brozzers finished. Are you ready for the pit? [Die Another Day](/blogalongabond/die-another-day) is next.
