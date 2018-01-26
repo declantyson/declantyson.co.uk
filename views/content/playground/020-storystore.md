@@ -4,4 +4,4 @@
 
 StoryStore is a place for writers to create, share and store their ideas.
 
-[View site &gt;](https://www.story-store.org/)
+[View site &gt;](https://storystore.herokuapp.com/)
