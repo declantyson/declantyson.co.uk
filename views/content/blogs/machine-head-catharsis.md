@@ -1,0 +1,19 @@
+# Catharsis
+
+###### An early contender for album of the year
+
+#### 2nd February 2018
+
+One month into the new year and we've got a very strong contender for a DEC Award - Machine Head have output an absolutely astonishing effort, one which should be taken note of - this is how you play heavy fucking metal.
+
+It's been a while since I listened to Machine Head properly - I skipped both _Bloodstone & Diamonds_ and _Unto The Locust_ - but 2007's _The Blackening_ was one of the [best albums of the decade](/awards/2000-2009). When they're at their best, Machine Head are absolutely incredible, and right from the kick off of _Catharsis_, they're at their best.
+
+The first song I heard was the title track, as Spotify's Release Radar alerted me to its single release at the end of last year. It's a track that starts of deceptively, sounding like some of the post-rock on the [No Man's Sky](/blog/no-mans-sky) soundtrack, before launching into a bloody riff, followed up by a bridge straight from their nu-metal days, before then changing pace again for the chorus. The song is continually shifting pace across the six minutes and ten seconds, it's frantic, interesting, and catchy to boot.
+
+It's the second song on the track listing after _Volatile_, a much harder hitting song that roars straight out of the blocks with "Fuck the world". It's very, very nu-metal, almost reminiscent of _Iowa_-era Slipknot, but with a classic Machine Head riff ripping through the chorus, and - in true Robb Flynn fashion - it follows up his previous criticisms of Pantera's lead vocalist Phil Anselmo with a message so thinly veiled it's basically anorexic. 
+
+The whole album is pretty nu-metal, and on the whole a lot more accessible than some of their other efforts. _Beyond The Pale_, _California Bleeding_ and _Triple Beam_ all sound like they could have been lifted straight from 2003 - I find myself feeling like I'm listening to Korn or Slipknot a lot. However, it also has a brave take on fusions with other genres in _Bastards_ - I imagine it's what happens when you get a heavy metal band drunk in an Irish pubnpm. Similarly, _Heavy Lies The Crown_ assigns a bit more of a gothic tone, taking inspiration from bands like _Lacuna Coil_ or _Within Temptation_, but still leaving in the band's hard metal roots.
+
+The standout track, by far, is _Kaleidoscope_. It's a celebration of what heavy metal should be - hard hitting riffs, a release of anger and defiance of being controlled. Lyrics such as "Get your middle fingers in the air/And bleed/They can't ignore us anymore/Cause I don't give a fuck", "This hole in my soul/Songs fill what religion won't" speaks volumes to every fan who uses metal as an escape from the world, so often full of shit. It's this track that truly feels like Catharsis.
+
+At 74 minutes, this is a long, long album and I've only covered about half the tracks in this short review - but it's an album that's worth a listen all the way through, not just the tracks I've mentioned. It's received - bewilderingly, to me - some negative attention from the metal press, but I would guess that's largely due to an inherent elitism in the genre where heavier is seen as better. I mean, to me, heavier and better are not the same thing. An album can be heavy, but crap, or light, but sensational. There's much more to metal than the weight of the chords, and this is where _Catharsis_ excels - its songwriting, pacing, and raw emotion come through its perceived lightness. If you're looking for the heaviest album you can find, go elsewhere, but if you're looking for an example of amazing metal - here is a very, very good place to start.
