@@ -4,7 +4,7 @@
 
 <div class="snapshot">
 
-![Milk & More](/assets/portfolio/mm-temp.png)
+![Milk & More](/assets/portfolio/milkandmore.png)
 
 <a href="http://www.milkandmore.co.uk/" target="_blank">View site &gt;</a>
 
