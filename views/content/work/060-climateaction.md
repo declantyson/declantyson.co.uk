@@ -6,8 +6,6 @@
 
 ![Climate Funding Snapshot](/assets/portfolio/climateaction.png)
 
-<a href="http://unfccc.int/climatefunding/" target="_blank">View site &gt;</a>
-
 </div>
 
 <div class="info">
