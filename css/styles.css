@@ -2,8 +2,8 @@
 *
 *	declantyson/2017/base
 *	Declan Tyson
-*	v0.1.5
-*	05/05/2017
+*	v0.3.0
+*	01/10/2018
 *
 */
 /* Defaults */
@@ -228,6 +228,9 @@ header {
     width: 49%; }
   .col.col-33 {
     width: 32%; }
+
+pre {
+  overflow-x: scroll; }
 
 /*
 *
