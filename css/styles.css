@@ -483,19 +483,44 @@ body[class^="awards"] #container {
   body[class^="awards"] #container #ocelot-content {
     padding: 0; }
   body[class^="awards"] #container .awards-content {
-    width: 100%; }
-    body[class^="awards"] #container .awards-content a {
-      border-bottom: solid 1px #666666;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap; }
+    body[class^="awards"] #container .awards-content a.award-splash {
       padding: 10px 0;
-      width: 100%;
       text-align: center;
-      max-width: 540px;
+      flex: 1;
       display: block;
-      margin: 0 auto; }
-      body[class^="awards"] #container .awards-content a:hover:after {
-        width: 100px; }
-      body[class^="awards"] #container .awards-content a:last-of-type {
-        border-bottom: none; }
+      margin: 0 auto;
+      position: relative; }
+      body[class^="awards"] #container .awards-content a.award-splash:after {
+        display: none; }
+      body[class^="awards"] #container .awards-content a.award-splash img {
+        filter: brightness(0.7);
+        opacity: 1;
+        transform: scale(1);
+        transition: all 0.25s ease-out; }
+        @media screen and (max-width: 1200px) {
+          body[class^="awards"] #container .awards-content a.award-splash img {
+            width: 480px; } }
+        @media screen and (max-width: 1024px) {
+          body[class^="awards"] #container .awards-content a.award-splash img {
+            width: 400px; } }
+        @media screen and (max-width: 860px) {
+          body[class^="awards"] #container .awards-content a.award-splash img {
+            width: 320px; } }
+      body[class^="awards"] #container .awards-content a.award-splash:hover img {
+        filter: brightness(0.9);
+        opacity: 0.9;
+        transform: scale(1.1); }
+      body[class^="awards"] #container .awards-content a.award-splash h3 {
+        position: absolute;
+        top: 50%;
+        width: 100%;
+        color: #ffffff;
+        text-align: center;
+        margin: 0;
+        font-size: 48px; }
   body[class^="awards"] #container .awards-sidebar {
     padding: 60px 0;
     width: 150px;

@@ -20,7 +20,8 @@ html
 						include:markdown-it content/awards.md
 						.awards-content
 							each award in awards
-								a(href=award.url)
+								a(href=award.url class='award-splash')
+									img(src=award.image)
 									h3= award.title
 
 			each script in scripts

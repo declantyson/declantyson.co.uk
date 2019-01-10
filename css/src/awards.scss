@@ -41,21 +41,50 @@ body[class^="awards"] {
 
         .awards-content {
             width: 100%;
+            display: flex;
+            flex-wrap: wrap;
             a {
-                border-bottom: solid 1px $awardsBorder;
-                padding: 10px 0;
-                width: 100%;
-                text-align: center;
-                max-width: 540px;
-                display: block;
-                margin: 0 auto;
-                &:hover {
+                &.award-splash {
+                    padding: 10px 0;
+                    text-align: center;
+                    flex: 1;
+                    display: block;
+                    margin: 0 auto;
+                    position: relative;
                     &:after {
-                        width: 100px;
+                        display: none;
                     }
-                }
-                &:last-of-type {
-                    border-bottom: none;
+                    img {
+                        filter: brightness(0.7);
+                        opacity: 1;
+                        transform: scale(1);
+                        transition: all 0.25s ease-out;
+                        @media screen and (max-width: 1200px) {
+                            width: 480px;
+                        }
+                        @media screen and (max-width: 1024px) {
+                            width: 400px;
+                        }
+                        @media screen and (max-width: 860px) {
+                            width: 320px;
+                        }
+                    }
+                    &:hover {
+                        img {
+                            filter: brightness(0.9);
+                            opacity: 0.9;
+                            transform: scale(1.1);
+                        }
+                    }
+                    h3 {
+                        position: absolute;
+                        top: 50%;
+                        width: 100%;
+                        color: #ffffff;
+                        text-align: center;
+                        margin: 0;
+                        font-size: 48px;
+                    }
                 }
             }
         }
@@ -118,7 +147,6 @@ body[class^="awards"] {
         }
     }
 }
-
 
 .awards-2016,
 .awards-2012 {

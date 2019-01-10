@@ -2,8 +2,8 @@
  *
  *  declantyson/2017
  *  Declan Tyson
- *  v0.2.1
- *  12/01/2018
+ *  v0.3.0
+ *  10/01/2019
  *
  */
 
@@ -268,7 +268,8 @@ app.get('/awards', function(req,res) {
            let rendered = md.render(content),
                award = {
                    url: `/awards/${file.replace('.md', '')}`,
-                   title: file.replace('.md', '')
+                   title: file.replace('.md', ''),
+                   image: `/assets/thumbs/awards/${file.replace('.md', '')}.png`
                };
 
            awards.push(award);
