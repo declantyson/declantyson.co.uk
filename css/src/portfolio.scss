@@ -7,24 +7,13 @@
 *
 */
 
-body.portfolio {
+body {
 	#fancy-loading-transition {
 		display: none;
 	}
 
 	.navigation {
 		border-color: #333;
-	}
-
-	header {
-		margin: 0 !important;
-		h1, p {
-			display: none;
-		}
-	}
-
-	.drop {
-		display: none;
 	}
 
 	#container {

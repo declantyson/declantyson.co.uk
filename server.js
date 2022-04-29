@@ -45,9 +45,26 @@ app.use(function forceLiveDomain(req, res, next) {
 });
 
 app.get('/', function(req,res) {
-    res.render('index', {
-        'package': package,
-        'scripts': getScripts()
+    let work = [],
+    playground = [];
+
+    fs.readdir('views/content/work/', (err, files) => {
+        if(err) throw err;
+        files.forEach((file) => {
+            let md = new MarkdownIt({
+                    html: true
+                }),
+                content = fs.readFileSync(`views/content/work/${file}`, 'utf-8'),
+                renderedWork = md.render(content);
+
+            work.push(renderedWork);
+        });
+
+        res.render('index', {
+            'package': package,
+            'scripts': getScripts(),
+            'work': work
+        });
     });
 });
 

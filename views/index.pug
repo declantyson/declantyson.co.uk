@@ -18,6 +18,11 @@ html
 						include includes/nav
 					#ocelot-content
 						include:markdown-it content/intro.md
+						.work
+							each item in work
+								.item!= item
+
+						.clear
 
 			each script in scripts
 				script(src=script)
