@@ -17,12 +17,16 @@ html
 					.navigation
 						include includes/nav
 					#ocelot-content
-						include:markdown-it content/blog.md
-						.blogs
-							each blog in blogs
-								a(href=blog.url)
-									h3!= blog.title
-									span= blog.date
+						.blog
+							aside
+								include:markdown-it content/blog.md
+							.blogs
+								each blog in blogs
+									a(href=blog.url)
+										img(src=`/assets${blog.url}.png`)
+										span.blackener
+										h3!= blog.title
+										span.date= blog.date
 
 			each script in scripts
 				script(src=script)

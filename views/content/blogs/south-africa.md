@@ -28,6 +28,6 @@ After a small layover in Johannesburg airport we got on the smallest fucking pla
 
 We spent three days getting up every day at 5am to go on drives, getting back to the lodge for breakfast around 9am. After breakfast we typically slept for a couple of hours, before eating some more, and then going out for another game drive around 4pm, getting back by about 8pm. We would see things that we will never forget. 
 
-The flight back to London was long and arduous, with the knowledge that this was probably a once-in-a-lifetime experience that we would never get to have again. But, it was worth it. It was worth all of the extra hours of work, every single penny we had to pay - it will be the best thing I have ever done, probably for the rest of my life. If you wish to see the video we documented, check it out on the new [travel videos](/travel) page that I've set up. It captures it in a way that words simply cannot.
+The flight back to London was long and arduous, with the knowledge that this was probably a once-in-a-lifetime experience that we would never get to have again. But, it was worth it. It was worth all of the extra hours of work, every single penny we had to pay - it will be the best thing I have ever done, probably for the rest of my life.
 
 South Africa, you were sensational, and I hope to be back one day.

@@ -17,12 +17,14 @@ html
 					.navigation
 						include includes/nav
 					#ocelot-content
-						include:markdown-it content/portfolio.md
-						.work
-							each item in work
-								.item!= item
+						.portfolio
+							aside
+								include:markdown-it content/portfolio.md
+							.work
+								each item in work
+									.item!= item
 
-						.clear
+							.clear
 
 						//include:markdown-it content/playground.md
 						//.playground

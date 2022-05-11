@@ -136,8 +136,8 @@ html, body {
 }
 
 p, ol, ul {
-  font-size: 18px;
-  line-height: 28px;
+  font-size: 16px;
+  line-height: 26px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -377,7 +377,7 @@ body.blog .drop {
 
 header {
   color: #fff;
-  margin: calc(100vh - 182px) auto 40px auto;
+  margin: calc(100vh - 180px) auto 40px auto;
 }
 header h1 {
   font-size: 48px;
@@ -435,38 +435,73 @@ img#featured {
 *	30/03/2017
 *
 */
-#ocelot-content .blogs {
+#ocelot-content .blog {
+  display: flex;
+}
+#ocelot-content .blog aside {
+  flex: 0 0 240px;
+  padding-right: 30px;
+}
+#ocelot-content .blog .blogs {
   text-align: center;
   border-top: solid 1px #efefef;
   margin-top: 30px;
 }
-#ocelot-content .blogs a {
-  width: 30%;
-  padding: 30px 0;
+#ocelot-content .blog .blogs a {
+  width: 100%;
+  padding: 30px;
   border-bottom: solid 1px #efefef;
-  margin: 0 1%;
+  position: relative;
+  overflow: hidden;
+  margin: 10px 0;
+  color: #ffffff;
+  box-sizing: border-box;
 }
-@media screen and (max-width: 640px) {
-  #ocelot-content .blogs a {
-    width: 48%;
-  }
+#ocelot-content .blog .blogs a img {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  transform: translateY(-50%);
+  z-index: 1;
 }
-@media screen and (max-width: 480px) {
-  #ocelot-content .blogs a {
-    width: 98%;
-  }
-}
-#ocelot-content .blogs a h3 {
+#ocelot-content .blog .blogs a h3 {
   margin: 0;
+  position: relative;
+  z-index: 3;
 }
-#ocelot-content .blogs a span {
+#ocelot-content .blog .blogs a .blackener {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 2;
+}
+#ocelot-content .blog .blogs a .date {
   font-weight: lighter;
+  position: relative;
+  z-index: 3;
 }
-#ocelot-content .blogs a:after {
+#ocelot-content .blog .blogs a:after {
   margin-top: 10px;
+  position: relative;
+  z-index: 2;
+  display: none;
 }
-#ocelot-content .blogs a:hover:after {
+#ocelot-content .blog .blogs a:hover:after {
   width: 200px;
+}
+@media screen and (max-width: 768px) {
+  #ocelot-content .blog {
+    flex-direction: column;
+  }
+  #ocelot-content .blog aside {
+    padding: 0;
+  }
+  #ocelot-content .blog .blogs a {
+    padding: 15px;
+  }
 }
 
 .blog-the-bowie-effect #featured,
