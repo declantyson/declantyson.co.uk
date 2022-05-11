@@ -340,6 +340,17 @@ pre {
 .drop.in {
   display: block;
 }
+@media screen and (max-width: 640px) {
+  .drop.in {
+    display: none;
+  }
+}
+
+body.homepage .drop,
+body.portfolio .drop,
+body.blog .drop {
+  display: none;
+}
 
 /*
 *
@@ -721,86 +732,119 @@ body[class^=travel] video {
 *
 *	declantyson/2017/portfolio
 *	Declan Tyson
-*	v0.2.1
-*	12/01/2018
+*	v0.3.0
+*	12/0/2018
 *
 */
-body #fancy-loading-transition {
+body.portfolio #fancy-loading-transition,
+body.blog #fancy-loading-transition {
   display: none;
 }
-body .navigation {
+body.portfolio .navigation,
+body.blog .navigation {
   border-color: #333;
 }
-body #container {
+body.portfolio header,
+body.blog header {
+  margin: 0 !important;
+}
+body.portfolio header h1, body.portfolio header p,
+body.blog header h1,
+body.blog header p {
+  display: none;
+}
+body.portfolio .drop,
+body.blog .drop {
+  display: none;
+}
+body.portfolio #container,
+body.blog #container {
   min-height: 100%;
 }
-body .work .item {
+body.portfolio .work .item,
+body.blog .work .item {
   clear: both;
   margin-top: 40px;
 }
-body .work .item h2, body .work .item h4 {
+body.portfolio .work .item h2, body.portfolio .work .item h4,
+body.blog .work .item h2,
+body.blog .work .item h4 {
   text-align: center;
 }
-body .work .item .snapshot {
+body.portfolio .work .item .snapshot,
+body.blog .work .item .snapshot {
   float: left;
   text-align: center;
   width: 31%;
   margin: 10px 1%;
 }
 @media screen and (max-width: 960px) {
-  body .work .item .snapshot {
+  body.portfolio .work .item .snapshot,
+body.blog .work .item .snapshot {
     width: 48%;
   }
 }
 @media screen and (max-width: 640px) {
-  body .work .item .snapshot {
+  body.portfolio .work .item .snapshot,
+body.blog .work .item .snapshot {
     width: 98%;
   }
 }
-body .work .item .snapshot img {
+body.portfolio .work .item .snapshot img,
+body.blog .work .item .snapshot img {
   width: 100%;
 }
-body .work .item .info {
+body.portfolio .work .item .info,
+body.blog .work .item .info {
   float: right;
   width: 64%;
   margin: 10px 1%;
 }
 @media screen and (max-width: 960px) {
-  body .work .item .info {
+  body.portfolio .work .item .info,
+body.blog .work .item .info {
     width: 48%;
   }
 }
 @media screen and (max-width: 640px) {
-  body .work .item .info {
+  body.portfolio .work .item .info,
+body.blog .work .item .info {
     width: 98%;
   }
 }
-body .work .item:nth-of-type(even) .info {
+body.portfolio .work .item:nth-of-type(even) .info,
+body.blog .work .item:nth-of-type(even) .info {
   float: left;
 }
-body .work .item:nth-of-type(even) .snapshot {
+body.portfolio .work .item:nth-of-type(even) .snapshot,
+body.blog .work .item:nth-of-type(even) .snapshot {
   float: right;
 }
-body .playground .item {
+body.portfolio .playground .item,
+body.blog .playground .item {
   vertical-align: top;
   display: inline-block;
   width: 31%;
   margin: 10px 1%;
 }
 @media screen and (max-width: 960px) {
-  body .playground .item {
+  body.portfolio .playground .item,
+body.blog .playground .item {
     width: 48%;
   }
 }
 @media screen and (max-width: 640px) {
-  body .playground .item {
+  body.portfolio .playground .item,
+body.blog .playground .item {
     width: 98%;
   }
 }
-body .playground .item h2 {
+body.portfolio .playground .item h2,
+body.blog .playground .item h2 {
   text-align: center;
 }
-body .playground .item img {
+body.portfolio .playground .item img,
+body.blog .playground .item img {
   width: 100%;
 }
 

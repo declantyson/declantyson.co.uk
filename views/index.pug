@@ -4,7 +4,7 @@ html
 		meta(name='viewport', content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0')
 		link(rel='stylesheet', href='/css/styles.min.css')
 		link(rel='shortcut icon', href='/assets/favicon.png')
-	body
+	body.homepage
 		#total
 			include includes/fancy-loading-transition
 
@@ -18,11 +18,6 @@ html
 						include includes/nav
 					#ocelot-content
 						include:markdown-it content/intro.md
-						.work
-							each item in work
-								.item!= item
-
-						.clear
 
 			each script in scripts
 				script(src=script)
