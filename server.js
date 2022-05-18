@@ -47,7 +47,7 @@ app.use(function forceLiveDomain(req, res, next) {
 app.get('/', function(req,res) {
     res.render('index', {
         'package': package,
-        'scripts': getScripts()
+        'scripts': getScripts(),
     });
 });
 

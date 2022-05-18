@@ -44,7 +44,6 @@ $navHeight: 30px;
 	position: absolute;
 	right: 0px;
 	bottom: 0px;
-	display: none;
 	cursor: pointer;
 	&:after {
 		content: ' ';
@@ -65,8 +64,10 @@ $navHeight: 30px;
 	}
 }
 
-body.homepage {
-	.drop.in {
+body.homepage,
+body.portfolio,
+body.blog {
+	.drop {
 		display: none;
 	}
 }

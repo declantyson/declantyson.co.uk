@@ -2,12 +2,13 @@
 *
 *	declantyson/2017/portfolio
 *	Declan Tyson
-*	v0.2.1
-*	12/01/2018
+*	v0.3.0
+*	12/0/2018
 *
 */
 
-body.portfolio {
+body.portfolio,
+body.blog {
 	#fancy-loading-transition {
 		display: none;
 	}
@@ -15,8 +16,8 @@ body.portfolio {
 	.navigation {
 		border-color: #333;
 	}
-
-	header {
+    
+    header {
 		margin: 0 !important;
 		h1, p {
 			display: none;
