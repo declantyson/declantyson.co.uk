@@ -2,6 +2,4 @@
 
 ###### Opinions and rambles about video games, films, music and tech
 
-From time to time, I like to write. I don't do it even close as often as I would like to, nor is it of any real quality, and very few people actually ever read it, but I still do it. Why? Who knows. It's a question for the ages.
-
-You may be wondering where they all are. Well, the transition to my new website was rather hurried and I did not have the time to insert them into the new format. Additionally, they're being groomed and edited, so the site is a little lightweight right now. More blogs - both new and old - will appear here eventually.
+Despite what you may think I do actually occasionally write a blog. I mean, it's sporadic at best, and ultimately low quality in both content and writing style, but I still do it. Why? That's a question for the ages.
